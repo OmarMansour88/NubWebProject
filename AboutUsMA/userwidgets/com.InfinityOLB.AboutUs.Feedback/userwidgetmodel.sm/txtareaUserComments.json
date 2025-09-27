@@ -1,0 +1,80 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextArea2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_padding_": [
+        1,
+        1,
+        2,
+        2
+    ],
+    "_placeholder_": "Optional",
+    "_skin_": "s4f209d81fb446fb9d9e3bc6e59bb10a",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "120dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95.08%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Optional"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "closebuttontext": "",
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "desktopweb": {
+        "placeholderSkin": "sa625dcc04354aeab4beb72acebe1aa8",
+        "psp": {
+            "placeholderSkin": "s66297304a704d45885cdef91a9e9136"
+        }
+    },
+    "disabledSkins": {},
+    "focusskin": "sf00082e2c014f49aac9a8d5283a956d",
+    "id": "txtareaUserComments",
+    "info": null,
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "ea61110de4e2403596965a5d9c05f1f7",
+    "maxtextlength": 1000,
+    "mode": "A",
+    "name": "kony.ui.TextArea2",
+    "numberofvisiblelines": 3,
+    "parent": "flxaddress",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "s66297304a704d45885cdef91a9e9136",
+    "responsiveData": {
+        "b3": {}
+    },
+    "securetextentry": false,
+    "showoprogressindicator": false,
+    "showprogressindicator": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextArea",
+    "zindex": 5
+}

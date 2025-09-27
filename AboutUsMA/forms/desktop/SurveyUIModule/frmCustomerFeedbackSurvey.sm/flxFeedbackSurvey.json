@@ -1,0 +1,123 @@
+{
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "83dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "6.20%"
+    },
+    "_skin_": "s99953ae6fb84054bcfed3d722884526",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "87.73%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "FeedbackSurvey"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxFeedbackSurvey",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ad7243f6b8294f569922e2738fd12366",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxFeedbackSurveyContainer",
+    "pf": "frmCustomerFeedbackSurvey",
+    "responsiveData": {
+        "b1": {
+            "right": {
+                "type": "string",
+                "value": "85dp"
+            }
+        },
+        "b2": {
+            "isVisible": true,
+            "right": {
+                "type": "string",
+                "value": "85dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "20dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "88%"
+            }
+        },
+        "b3": {
+            "left": {
+                "type": "string",
+                "value": "10dp"
+            },
+            "right": {
+                "type": "string",
+                "value": "10dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "20dp"
+            },
+            "width": {
+                "type": "string",
+                "value": ""
+            }
+        },
+        "b4": {
+            "left": {
+                "type": "string",
+                "value": "24dp"
+            },
+            "right": {
+                "type": "string",
+                "value": "24dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "60dp"
+            },
+            "width": {
+                "type": "string",
+                "value": ""
+            }
+        }
+    },
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

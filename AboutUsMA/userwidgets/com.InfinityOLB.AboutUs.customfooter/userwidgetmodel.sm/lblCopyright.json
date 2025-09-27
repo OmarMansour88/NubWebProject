@@ -1,0 +1,81 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf88a68442a44317b48499658aab61eb",
+    "_text_": "© Copyright Infinity Retail Banking. All rights reserved.",
+    "_top_": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "accessibilityconfig": {
+        "a11yLabel": "\\u00a9 Copyright Kony Retail Banking. All rights reserved. Your savings are federally insured to at least $250,000 and backed by the full faith and credit of the Government."
+    },
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblCopyright",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "a696ff4e198a4124810242908deae798",
+    "maxwidth": {
+        "type": "string",
+        "value": "1200dp"
+    },
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "customfooter",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b3": {
+            "top": {
+                "type": "string",
+                "value": "60dp"
+            }
+        }
+    },
+    "texti18n": "i18n.footer.copyright",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}
