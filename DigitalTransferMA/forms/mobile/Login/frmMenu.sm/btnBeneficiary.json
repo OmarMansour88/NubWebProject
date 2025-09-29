@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s24d0acf866a4680a2007e77c6c31a6fe",
+    "_text_": "Add New Account",
+    "_top_": {
+        "type": "string",
+        "value": "395dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s03948da442f4eea96f3e88fa05ed7fc",
+    "id": "btnBeneficiary",
+    "ide_onClick": "AS_Button_ibb6c3a6557c4c87ac5362faad40214b",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e90e782b5462455f9364a2447e2f421c",
+    "name": "kony.ui.Button",
+    "parent": "flxMain",
+    "pf": "frmMenu",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

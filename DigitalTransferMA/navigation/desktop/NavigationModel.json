@@ -1,0 +1,181 @@
+{ 
+  "Application": {},
+  "Forms" : {
+    
+    "frmAcknowledgement": {
+      "preConditionConfig": [],
+      "destinationConfig": {
+        "callback": "handlefrmAcknowledgementNavigation",
+        "targetForms": [{
+          "friendlyName": "frmUTFLanding",
+          "appName" : "UnifiedTransferMA"
+        }, {
+          "friendlyName": "frmUTFLanding",
+          "appName": "UnifiedTransferMA"
+        }]
+      }
+    },
+    
+    "frmActivateP2P": {
+      "preConditionConfig": [],
+      "destinationConfig": {
+        "callback": "handlefrmActivateP2PNavigation",
+        "targetForms": [{
+          "friendlyName": "frmAcknowledgement",
+          "appName" : "DigitalTransferMA"
+        },{
+          "friendlyName": "frmDeactivateAcknowledgement",
+          "appName" : "DigitalTransferMA"
+        },{
+          "friendlyName": "frmUTFLanding",
+          "appName": "UnifiedTransferMA"
+        }]
+      }
+    },
+    
+    "frmDeactivateAcknowledgement": {
+      "preConditionConfig": [],
+      "destinationConfig": {
+        "callback": "handlefrmDeactivateAcknowledgementNavigation",
+        "targetForms": [{
+          "friendlyName": "frmUTFLanding",
+          "appName" : "UnifiedTransferMA"
+        }]
+      }
+    },
+   
+    "frmUTFP2PTransfer": {
+      "preConditionConfig": [],
+      "destinationConfig": {
+        "callback": "handlefrmUTFP2PTransferNavigation",
+        "targetForms": [{
+          "friendlyName": "frmUTFSameBankTransfer",
+          "appName" : "UnifiedTransferMA"
+        },{
+          "friendlyName": "frmUTFDomesticTransfer",
+          "appName" : "UnifiedTransferMA"
+        },{
+          "friendlyName": "frmUTFInternationalTransfer",
+          "appName" : "UnifiedTransferMA"
+        },{
+          "friendlyName": "frmUTFP2PTransfer",
+          "appName" : "DigitalTransferMA"
+        }, {
+          "friendlyName": "frmUTFLanding",
+          "appName": "UnifiedTransferMA"
+        },{
+          "friendlyName": "frmUTFP2PTransferConfirmation",
+          "appName": "DigitalTransferMA"
+        }]
+      }
+    },
+    
+    "frmUTFP2PTransferAcknowledgement": {
+      "preConditionConfig": [],
+      "destinationConfig": {
+        "callback": "handlefrmUTFP2PTransferAcknowledgementNavigation",
+        "targetForms": [{
+          "friendlyName": "frmUTFEmailOrSMS",
+          "appName" : "UnifiedTransferMA"
+        },{
+          "friendlyName": "frmUTFSecurityQuestions",
+          "appName" : "UnifiedTransferMA"
+        },{
+          "friendlyName": "frmUTFP2PTransfer",
+          "appName" : "DigitalTransferMA"
+        },{
+          "friendlyName": "frmUTFLanding",
+          "appName": "UnifiedTransferMA"
+        },{
+          "friendlyName": "frmUTFP2PTransferAcknowledgement",
+          "appName": "DigitalTransferMA"
+        }]
+      }
+    },
+    
+    "frmUTFP2PTransferConfirmation": {
+      "preConditionConfig": [],
+      "destinationConfig": {
+        "callback": "handlefrmUTFP2PTransferConfirmationNavigation",
+        "targetForms": [{
+          "friendlyName": "frmUTFEmailOrSMS",
+          "appName" : "UnifiedTransferMA"
+        },{
+          "friendlyName": "frmUTFSecurityQuestions",
+          "appName" : "UnifiedTransferMA"
+        },{
+          "friendlyName": "frmUTFP2PTransfer",
+          "appName" : "DigitalTransferMA"
+        },{
+          "friendlyName": "frmUTFLanding",
+          "appName" : "UnifiedTransferMA"
+        }, {
+          "friendlyName": "frmUTFP2PTransferAcknowledgement",
+          "appName": "DigitalTransferMA"
+        }]
+      }
+    },
+    
+    
+    "frmPayaPersonAddBeneAcknowledgement": {
+      "preConditionConfig": [],
+      "destinationConfig": {
+        "callback": "handlefrmPayaPersonAddBeneAcknowledgementNavigation",
+        "targetForms": [{
+          "friendlyName": "frmUTFLanding",
+          "appName" : "UnifiedTransferMA"
+        }]
+      }
+    },
+    
+    
+    "frmPayaPersonAddBeneficiary": {
+      "preConditionConfig": [],
+      "destinationConfig": {
+        "callback": "handlefrmPayaPersonAddBeneficiaryNavigation",
+        "targetForms": [{
+          "friendlyName": "frmSameBankAddBeneficiary",
+          "appName" : "UnifiedTransferMA"
+        },{
+          "friendlyName": "frmDomesticAddBeneficiary",
+          "appName" : "UnifiedTransferMA"
+        },{
+          "friendlyName": "frmInternationalAddBeneficiary",
+          "appName" : "UnifiedTransferMA"
+        },{
+          "friendlyName": "frmPayaPersonAddBeneficiary",
+          "appName" : "DigitalTransferMA"
+        },{
+          "friendlyName": "frmLinkPayee",
+          "appName" : "UnifiedTransferMA"
+        }, {
+          "friendlyName": "frmPayaPersonAddBeneficiaryConfirm",
+          "appName": "DigitalTransferMA"
+        },{
+          "friendlyName": "frmUTFLanding",
+          "appName" : "UnifiedTransferMA"
+        }]
+      }
+    },
+    
+    
+    "frmPayaPersonAddBeneficiaryConfirm": {
+      "preConditionConfig": [],
+      "destinationConfig": {
+        "callback": "handlefrmPayaPersonAddBeneficiaryConfirmNavigation",
+        "targetForms": [{
+          "friendlyName": "frmUTFLanding",
+          "appName": "UnifiedTransferMA"
+        }, {
+          "friendlyName": "frmPayaPersonAddBeneAcknowledgement",
+          "appName": "DigitalTransferMA"
+        },{
+          "friendlyName": "frmPayaPersonAddBeneficiary",
+          "appName": "DigitalTransferMA"
+        }]
+      }
+    }
+    
+  },
+  "UIModules" : {}  
+}

@@ -1,0 +1,36 @@
+{
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [],
+            "PresentationControllerClass": "P2PActivationDeactivationUIModule/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {
+        "desktop": {
+            "frmAcknowledgement": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "P2PActivationDeactivationUIModule/frmAcknowledgementController",
+                "FormName": "P2PActivationDeactivationUIModule/frmAcknowledgement",
+                "friendlyName": "frmAcknowledgement"
+            },
+			"frmActivateP2P": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "P2PActivationDeactivationUIModule/frmActivateP2PController",
+                "FormName": "P2PActivationDeactivationUIModule/frmActivateP2P",
+                "friendlyName": "frmActivateP2P"
+            },
+			"frmDeactivateAcknowledgement": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "P2PActivationDeactivationUIModule/frmDeactivateAcknowledgementController",
+                "FormName": "P2PActivationDeactivationUIModule/frmDeactivateAcknowledgement",
+                "friendlyName": "frmDeactivateAcknowledgement"
+            },
+           
+        },
+    },
+    "ModuleType": "UIModule",
+    "ModuleName": "P2PActivationDeactivationUIModule"
+}

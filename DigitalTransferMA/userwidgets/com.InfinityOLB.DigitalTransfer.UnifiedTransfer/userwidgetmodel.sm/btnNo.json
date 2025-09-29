@@ -1,0 +1,72 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "number",
+        "value": ""
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "186dp"
+    },
+    "_skin_": "sa611611b2f24e93bcfd09e1606c0d86",
+    "_text_": "No",
+    "_width_": {
+        "type": "string",
+        "value": "145dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sb1a3215c6f84754958ff4e7100cda7e",
+    "id": "btnNo",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b87981b4081c47beb97e7c15a0e356dd",
+    "name": "kony.ui.Button",
+    "parent": "flxCancelPopup",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b3": {
+            "left": {
+                "type": "string",
+                "value": "6.67%"
+            },
+            "right": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "text": "No",
+            "width": {
+                "type": "string",
+                "value": "120dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

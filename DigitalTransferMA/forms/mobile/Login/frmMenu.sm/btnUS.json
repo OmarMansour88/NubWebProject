@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s24d0acf866a4680a2007e77c6c31a6fe",
+    "_text_": "Activate P2P",
+    "_top_": {
+        "type": "string",
+        "value": "160dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s03948da442f4eea96f3e88fa05ed7fc",
+    "id": "btnUS",
+    "ide_onClick": "AS_Button_a9a50d55a41b4dec9e28160188b7af04",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e54afcab35bd44fbb22c539356f52dc9",
+    "name": "kony.ui.Button",
+    "parent": "flxMain",
+    "pf": "frmMenu",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

@@ -1,0 +1,70 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s24c92fc23b14f5484b693ee9b8a9b35",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "flxFields",
+        "flxPopup",
+        "flxLookups"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "datamapping": "",
+    "enablescrolling": true,
+    "id": "UnifiedTransfer",
+    "ide_postShow": "AS_FlexContainer_ad7c605041ee4615b20845ac1fd3bd95",
+    "ide_preShow": "AS_FlexContainer_de5f604feb9f4ccf9b871e260e159871",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "jf3885643a504bbcb185a24345e1e35a",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "userwidgetmodel",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b3": {
+            "dataMapping": "{\n  \"labels\": {\n    \"lblFromKey\": \"${i18n{i18n.StopCheckPayments.from}}\",\n    \"lblToKey\": \"${i18n{i18n.StopCheckPayments.To}}\",\n    \"lblNoFromRecordMessage\": \"${i18n{i18n.UnifiedTransfer.FromAccountsEmptyRecordMessage}}\",\n    \"lblNoFromRecordAction\": \"\",\n    \"lblNoToRecordMessage\": \"${i18n{i18n.UnifiedTransfer.ToAccountsEmptyRecordMessage}}\",\n    \"lblNoToRecordAction\": \"${i18n{i18n.UnifiedTransfer.TransferToANewPayee}}\",\n    \"lblAccountNumberKey\": \"${i18n{i18n.common.accountNumber}}\",\n    \"lblReEnterAccountNumberKey\": \"${i18n{i18n.UnifiedAddBeneficiary.ReenterAccountNumber}}\",\n    \"lblPayeeDetail1\": \"${i18n{i18n.TransfersEur.BICSWIFT}}\",\n    \"lblPayeeDetail2\": \"${i18n{i18n.UnifiedTransfer.ClearingCode1}}\",\n    \"lblPayeeDetail3\": \"${i18n{i18n.UnifiedTransfer.ClearingCode2}}\",\n    \"lblPayeeDetail4\": \"${i18n{i18n.transfers.bankName}}\",\n    \"lblTransferCurrency\": \"${i18n{i18n.WireTransfer.TransferCurrency}}\",\n    \"lblAmount\": \"${i18n{i18n.transfers.lblAmount}}\",\n    \"lblFXRate\": \"${i18n{i18n.UnifiedTransfer.FxRateReference}}\",\n    \"lblPaymentMethod\": \"${i18n{i18n.TransfersEur.PaymentMethod}}\",\n    \"lblFrequency\": \"${i18n{i18n.transfers.lblFrequency}}\",\n    \"lblTransferDuration\": \"${i18n{i18n.transfers.lblForHowLong}}\",\n    \"lblStartDate\": \"${i18n{i18n.transfers.send_on}}\",\n    \"lblEndDate\": \"${i18n{i18n.transfers.end_date}}\",\n    \"lblRecurrences\": \"${i18n{i18n.transfers.lblNumberOfRecurrences}}\",\n    \"lblFeesPaidBy\": \"${i18n{i18n.TransfersEur.FeesPaidBy}}\",\n    \"lblIntermediaryBic\": \"${i18n{i18n.UnifiedTransfer.IntermediaryBICOptional}}\",\n    \"lblE2EReference\": \"${i18n{i18n.UnifiedTransfer.E2EReferenceOptional}}\",\n    \"lblNotes\": \"${i18n{i18n.UnifiedTransfer.PaymentDetailsOptional}}\",\n    \"lblAddressField1\": \"${i18n{i18n.konybb.manageUser.PhoneNo}}\",\n    \"lblAddressField2\": \"${i18n{i18n.konybb.manageUser.EmailID}}\",\n    \"lblAddressField3\": \"${i18n{i18n.TransfersEur.AddressLine01}}\",\n    \"lblAddressField4\": \"${i18n{i18n.TransfersEur.AddressLine02}}\",\n    \"lblAddressField5\": \"${i18n{i18n.TransfersEur.City}}\",\n    \"lblAddressField6\": \"${i18n{i18n.common.state}}\",\n    \"lblAddressField7\": \"${i18n{i18n.TransfersEur.Country}}\",\n    \"lblAddressField8\": \"${i18n{i18n.common.zipcode}}\",\n    \"lblPayeeAddressDetail\": \"${i18n{i18n.UnifiedTransfer.BeneficiaryAddressDetails}}\",\n    \"lblSupportingDocuments\": \"${i18n{i18n.UnifiedTransfer.AttachDocuments}}\",\n    \"lblPayeeOptional\": \"${i18n{i18n.UnifiedTransfer.Optional}}\",\n    \"lblSupportingOptional\": \"${i18n{i18n.UnifiedTransfer.Optional}}\",\n    \"lblLookupTitle\": \"${i18n{i18n.TransfersEur.SWIFTBICSearch}}\",\n    \"lblLookupDescription\": \"${i18n{i18n.TransfersEur.TofindyourSWIFTcodepleaseenterbankdetailsthenhitSearch}}\",\n    \"lblSearchField1\": \"${i18n{i18n.transfers.bankName}}\",\n    \"lblSearchField2\": \"${i18n{i18n.LocateUs.BranchName}}\",\n    \"lblSearchField3\": \"${i18n{i18n.TransfersEur.Country}}\",\n    \"lblSearchField4\": \"${i18n{i18n.TransfersEur.City}}\"\n  },\n  \"textboxes\": {\n    \"tbxFromAccount\": {\n      \"placeHolder\": \"${i18n{i18n.TransfersEur.Selecttheaccountyouwanttopayfrom}}\"\n    },\n    \"tbxToAccount\": {\n      \"placeHolder\": \"${i18n{i18n.TransfersEur.SelecttheToaccount}}\"\n    },\n    \"tbxAccountNumber\": {\n      \"mapping\": \"${Collection.Recipients.accountNumber}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedAddBeneficiary.AccountNumber}}\"\n    },\n    \"tbxReEnterAccountNumber\": {\n      \"mapping\": \"${Collection.Recipients.reenterAccountNumber}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedAddBeneficiary.ReenterAccountNumber}}\"\n    },\n    \"tbxPayeeName\": {\n      \"mapping\": \"${Collection.Recipients.payeeName}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedAddBeneficiary.EnterPayeeName}}\"\n    },\n    \"tbxPayeeDetail1\": {\n      \"mapping\": \"${Collection.BankDetails.swiftCode}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedAddBeneficiary.SwiftCode}}\"\n    },\n    \"tbxPayeeDetail2\": {\n      \"mapping\": \"${Collection.Transaction.clearingCode1}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedAddBeneficiary.enterClearingCode1}}\"\n    },\n    \"tbxPayeeDetail3\": {\n      \"mapping\": \"${Collection.Transaction.clearingCode2\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedAddBeneficiary.enterClearingCode2}}\"\n    },\n    \"tbxPayeeDetail4\": {\n      \"mapping\": \"${Collection.BankDetails.bankName}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedAddBeneficiary.enterBankName}}\"\n    },\n    \"tbxAmount\": {\n      \"mapping\": \"${Collection.Transaction.amount}\",\n      \"placeHolder\": \"0.00\"\n    },\n    \"tbxPaymentAmount4\": {\n      \"mapping\": \"${Collection.Transaction.amount}\",\n      \"placeHolder\": \"0.00\"\n    },\n    \"tbxRecurrences\": {\n      \"mapping\": \"${Collection.Transaction.numberOfRecurrences}\",\n      \"placeHolder\": \"${i18n{i18n.PayAPerson.EnterNumberOfRecurrences}}\"\n    },\n    \"tbxIntermediaryBic\": {\n      \"mapping\": \"${Collection.BankDetails.intermediaryBicCode}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedTransfer.EnterIntermediaryBIC}}\"\n    },\n    \"tbxE2EReference\": {\n      \"mapping\": \"${Collection.Transaction.e2eReference}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedTransfer.EnterE2EReference}}\"\n    },\n    \"txtNotes\": {\n      \"mapping\": \"${Collection.Transaction.transactionsNotes}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedTransfer.NotePlaceholder}}\"\n    },\n    \"tbxAddressField1\": {\n      \"mapping\": \"${Collection.Recipients.phone}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedTransfer.EnterPhoneNumber}}\"\n    },\n    \"tbxAddressField2\": {\n      \"mapping\": \"${Collection.Recipients.email}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedTransfer.EnterEmailId}}\"\n    },\n    \"tbxAddressField3\": {\n      \"mapping\": \"${Collection.Recipients.addressLine1}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedTransfer.EnterAddressLine01}}\"\n    },\n    \"tbxAddressField4\": {\n      \"mapping\": \"${Collection.Recipients.addressLine2}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedTransfer.EnterAddressLine02}}\"\n    },\n    \"tbxAddressField5\": {\n      \"mapping\": \"${Collection.Recipients.city}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedTransfer.EnterCity}}\"\n    },\n    \"tbxAddressField8\": {\n      \"mapping\": \"${Collection.Recipients.zipCode}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedTransfer.EnterZipCode}}\"\n    },\n    \"txtBoxSearchField1\": {\n      \"mapping\": \"${Collection.BankDetails.lookupBankName}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedAddBeneficiary.enterBankName}}\"\n    },\n    \"txtBoxSearchField2\": {\n      \"mapping\": \"${Collection.BankDetails.lookupBranchName}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedAddBeneficiary.enterBranchName}}\"\n    },\n    \"txtBoxSearchField3\": {\n      \"mapping\": \"${Collection.BankDetails.lookupCountry}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedTransfer.EnterCountry}}\"\n    },\n    \"txtBoxSearchField4\": {\n      \"mapping\": \"${Collection.BankDetails.lookupCity}\",\n      \"placeHolder\": \"${i18n{i18n.UnifiedTransfer.EnterCity}}\"\n    }\n  },\n  \"listboxes\": {\n    \"lbxAddressField6\": {\n      \"mapping\": \"${Collection.Recipients.state}\",\n      \"placeHolder\": \"\"\n    },\n    \"lbxAddressField7\": {\n      \"mapping\": \"${Collection.Recipients.country}\",\n      \"placeHolder\": \"\"\n    }\n  },\n  \"buttons\": {\n    \"btn1\": {\n      \"text\": \"${i18n{i18n.TransfersEur.btnCancel}}\",\n      \"toolTip\": \"${i18n{i18n.TransfersEur.btnCancel}}\"\n    },\n    \"btn2\": {\n      \"text\": \"${i18n{i18n.TransfersEur.btnContinue}}\",\n      \"toolTip\": \"${i18n{i18n.TransfersEur.btnContinue}}\"\n    },\n    \"btnSearch\": {\n      \"text\": \"${i18n{i18n.billPay.Search}}\",\n      \"toolTip\": \"${i18n{i18n.billPay.Search}}\"\n    }\n  },\n  \"segments\": {\n    \"segFromAccounts\": {\n      \"segmentMasterData\": \"${Collection.fromAccounts}\",\n      \"segmentUI\": {\n        \"lblRecordField1\": \"${segmentMasterData.accountNameFormatted}\",\n        \"lblRecordField2\": \"${segmentMasterData.currentBalanceFormatted}\",\n        \"lblRecordField3\": \"${segmentMasterData.accountType}\"\n      }\n    },\n    \"segToAccounts\": {\n      \"segmentMasterData\": \"${Collection.toAccounts}\",\n      \"segmentUI\": {\n        \"lblRecordField1\": \"${segmentMasterData.accountNameFormatted}\",\n        \"lblRecordField2\": \"${segmentMasterData.currentBalanceFormatted}\",\n        \"lblRecordField3\": \"${segmentMasterData.accountType}\"\n      }\n    },\n    \"segLookupRecords\": {\n      \"segmentMasterData\": \"${Collection.swiftCodeLookup}\",\n      \"segmentUI\": {\n        \"lblLookupColumn1Value\": \"${segmentMasterData.bic}\",\n        \"lblLookupColumnValue2\": \"${segmentMasterData.bankName}\",\n        \"lblLookupColumnValue3\": \"${i18n{i18n.TransfersEur.selectSwift}}\"\n      }\n    }\n  },\n  \"frequencies\": {\n    \"Once\": \"${i18n{i18n.transfers.frequency.once}}\",\n    \"Daily\": \"${i18n{i18n.Transfers.Daily}}\",\n    \"Weekly\": \"${i18n{i18n.Transfers.Weekly}}\",\n    \"BiWeekly\": \"${i18n{i18n.savingsPot.biWeekly}}\",\n    \"Monthly\": \"${i18n{i18n.Transfers.Monthly}}\",\n    \"Quarterly\": \"${i18n{i18n.Transfers.Quaterly}}\",\n    \"Half Yearly\": \"${i18n{i18n.Transfers.HalfYearly}}\",\n    \"Yearly\": \"${i18n{i18n.Transfers.Yearly}}\"\n  },\n  \"transferDurations\": {\n    \"ON_SPECIFIC_DATE\": \"${i18n{i18n.transfers.lbxOnSpecificDate}}\",\n    \"NO_OF_RECURRENCES\": \"${i18n{i18n.transfers.lblNumberOfRecurrences}}\"\n  },\n  \"currencies\": {\n    \"USD\": \"USD\",\n    \"EUR\": \"EUR\",\n    \"INR\": \"INR\",\n    \"BGN\": \"BGN\"\n  },\n  \"paymentMethods\": {\n    \"EUR\": [\"SEPA\", \"INSTANT\"],\n    \"USD\": [\"FEDWIRE\", \"ACH\"],\n    \"GBP\": [\"CHAPS\", \"FASTER PAYMENT\"],\n    \"BGN\": [\"RINGS\", \"BISERA\"]\n  }\n}"
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}
