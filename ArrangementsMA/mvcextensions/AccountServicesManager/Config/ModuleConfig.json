@@ -1,0 +1,9 @@
+{
+    "ModuleName": "AccountServicesManager",
+    "ModuleType": "Manager",
+    "BusinessControllerConfig": {
+        "BusinessExtensions": [
+        ],
+        "BusinessControllerClass": "AccountServicesManager/BusinessControllers/BusinessController"
+    }
+}

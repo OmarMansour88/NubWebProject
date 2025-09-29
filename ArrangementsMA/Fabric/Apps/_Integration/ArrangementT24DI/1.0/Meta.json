@@ -1,0 +1,15 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "com.temenos.infinity.t24irisintegration.jar",
+    "type" : "jar"
+  }, {
+    "name" : "com.temenos.infinity.integration.common.jar",
+    "type" : "jar"
+  }, {
+    "name" : "infinity-api-commons.jar",
+    "type" : "jar"
+  } ],
+  "empty" : true,
+  "mapType" : "java.util.HashMap"
+}

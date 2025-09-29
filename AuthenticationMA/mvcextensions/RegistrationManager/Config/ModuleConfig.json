@@ -1,0 +1,8 @@
+{
+    "ModuleName": "RegistrationManager",
+    "ModuleType": "Manager",
+    "BusinessControllerConfig": {
+        "CommandHandler": [],
+        "BusinessControllerClass": "RegistrationManager/BusinessControllers/BusinessController"
+    }
+}

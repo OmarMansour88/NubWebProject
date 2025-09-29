@@ -1,0 +1,23 @@
+{
+    "Forms": {
+        "desktop": {
+            "frmConsolidatedStatements": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "AccountServicesModule/frmConsolidatedStatementsController",
+                "FormName": "AccountServicesModule/frmConsolidatedStatements",
+                "friendlyName": "frmConsolidatedStatements"
+            }
+        }
+    },
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "AccountServicesUIModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+            ]
+        }
+    },
+    "ModuleType": "UIModule",
+    "ModuleName": "AccountServicesUIModule"
+}

@@ -1,0 +1,22 @@
+{
+  "customCode" : {
+    "requestProcessorName" : "[{\"name\":\"com.temenos.infinity.api.arrangements.preprocessors.getAccountDetailsPreprocessor\",\"disabled\":false,\"isBase\":true}]",
+    "responseProcessorName" : "[]"
+  },
+  "operationConfig" : {
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

@@ -1,0 +1,223 @@
+{
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [],
+            "PresentationControllerClass": "AuthUIModule/PresentationControllers/PresentationController"
+        },
+        "Mobile": {
+            "PresentationExtensions": [],
+            "PresentationControllerClass": "AuthUIModule/PresentationControllers/PresentationController_Mobile"
+        }
+    },
+    "Forms": {
+        "desktop": {
+            "frmLogin": {
+                "Controller": "AuthUIModule/frmLoginController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmLogin",
+                "friendlyName": "frmLogin"
+            },
+            "frmLoginLanguage": {
+                "Controller": "AuthUIModule/frmLoginLanguageController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmLoginLanguage",
+                "friendlyName": "frmLoginLanguage"
+            },
+            "frmLogout": {
+                "Controller": "AuthUIModule/frmLogoutController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmLogout",
+                "friendlyName": "frmLogout"
+            }
+        },
+        "mobile": {
+            "frmDevRegFaceId": {
+                "Controller": "AuthUIModule/frmDevRegFaceIdController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmDevRegFaceId",
+                "friendlyName": "frmDevRegFaceId"
+            },
+            "frmDevRegFaceIdSetAsDefault": {
+                "Controller": "AuthUIModule/frmDevRegFaceIdSetAsDefaultController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmDevRegFaceIdSetAsDefault",
+                "friendlyName": "frmDevRegFaceIdSetAsDefault"
+            },
+            "frmDevRegLanding": {
+                "Controller": "AuthUIModule/frmDevRegLandingController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmDevRegLanding",
+                "friendlyName": "frmDevRegLanding"
+            },
+            "frmDevRegLoginType": {
+                "Controller": "AuthUIModule/frmDevRegLoginTypeController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmDevRegLoginType",
+                "friendlyName": "frmDevRegLoginType"
+            },
+            "frmDevRegPin": {
+                "Controller": "AuthUIModule/frmDevRegPinController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmDevRegPin",
+                "friendlyName": "frmDevRegPin"
+            },
+            "frmDevRegPinConfirmation": {
+                "Controller": "AuthUIModule/frmDevRegPinConfirmationController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmDevRegPinConfirmation",
+                "friendlyName": "frmDevRegPinConfirmation"
+            },
+            "frmDevRegSecCode": {
+                "Controller": "AuthUIModule/frmDevRegSecCodeController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmDevRegSecCode",
+                "friendlyName": "frmDevRegSecCode"
+            },
+            "frmDevRegTouchId": {
+                "Controller": "AuthUIModule/frmDevRegTouchIdController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmDevRegTouchId",
+                "friendlyName": "frmDevRegTouchId"
+            },
+            "frmExternalBankLogin": {
+                "Controller": "AuthUIModule/frmExternalBankLoginController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmExternalBankLogin",
+                "friendlyName": "frmExternalBankLogin"
+            },
+            "frmForgotCreatePassword": {
+                "Controller": "AuthUIModule/frmForgotCreatePasswordController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmForgotCreatePassword",
+                "friendlyName": "frmForgotCreatePassword"
+            },
+            "frmForgotEnterCVV": {
+                "Controller": "AuthUIModule/frmForgotEnterCVVController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmForgotEnterCVV",
+                "friendlyName": "frmForgotEnterCVV"
+            },
+            "frmForgotEnterDOB": {
+                "Controller": "AuthUIModule/frmForgotEnterDOBController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmForgotEnterDOB",
+                "friendlyName": "frmForgotEnterDOB"
+            },
+            "frmForgotEnterLastName": {
+                "Controller": "AuthUIModule/frmForgotEnterLastNameController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmForgotEnterLastName",
+                "friendlyName": "frmForgotEnterLastName"
+            },
+            "frmForgotEnterSSN": {
+                "Controller": "AuthUIModule/frmForgotEnterSSNController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmForgotEnterSSN",
+                "friendlyName": "frmForgotEnterSSN"
+            },
+            "frmForgotEnterSecurityCode": {
+                "Controller": "AuthUIModule/frmForgotEnterSecurityCodeController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmForgotEnterSecurityCode",
+                "friendlyName": "frmForgotEnterSecurityCode"
+            },
+            "frmForgotMain": {
+                "Controller": "AuthUIModule/frmForgotMainController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmForgotMain",
+                "friendlyName": "frmForgotMain"
+            },
+            "frmForgotSelectMethod": {
+                "Controller": "AuthUIModule/frmForgotSelectMethodController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmForgotSelectMethod",
+                "friendlyName": "frmForgotSelectMethod"
+            },
+            "frmFullScreenAds": {
+                "Controller": "AuthUIModule/frmFullScreenAdsController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmFullScreenAds",
+                "friendlyName": "frmFullScreenAds"
+            },
+            "frmLogin": {
+                "Controller": "AuthUIModule/frmLoginController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmLogin",
+                "friendlyName": "frmLogin"
+            },
+            "frmLanguageSelectionLoading": {
+                "Controller": "AuthUIModule/frmLanguageSelectionLoadingController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmLanguageSelectionLoading",
+                "friendlyName": "frmLanguageSelectionLoading"
+            },
+            "frmLogout": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "AuthUIModule/frmLogoutController",
+                "FormName": "AuthUIModule/frmLogout",
+                "friendlyName": "frmLogout"
+            },
+            "frmForgotEnterEmailID": {
+                "Controller": "AuthUIModule/frmForgotEnterEmailIDController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmForgotEnterEmailID",
+                "friendlyName": "frmForgotEnterEmailID"
+            },
+            "frmForgotEnterPhoneNumber": {
+                "Controller": "AuthUIModule/frmForgotEnterPhoneNumberController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmForgotEnterPhoneNumber",
+                "friendlyName": "frmForgotEnterPhoneNumber"
+            },
+            "frmForgotSelectUsername": {
+                "Controller": "AuthUIModule/frmForgotSelectUsernameController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmForgotSelectUsername",
+                "friendlyName": "frmForgotSelectUsername"
+            },
+            "frmForgotResetInformation": {
+                "Controller": "AuthUIModule/frmForgotResetInformationController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmForgotResetInformation",
+                "friendlyName": "frmForgotResetInformation"
+            },
+            "frmForgotSelectCountry": {
+                "Controller": "AuthUIModule/frmForgotSelectCountryController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "AuthUIModule/frmForgotSelectCountry",
+                "friendlyName": "frmForgotSelectCountry"
+            }
+        }
+    },
+    "ModuleType": "UIModule",
+    "ModuleName": "AuthUIModule"
+}

@@ -1,0 +1,37 @@
+{
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "ArrangementMicroService",
+    "version" : "1.0",
+    "etag" : "fbff7579-565b-4926-834b-03ef89d8cda6"
+  }, {
+    "name" : "ChequeManagementT24Services",
+    "version" : "1.0",
+    "etag" : "9458cfa1-f8f9-4502-b58e-fceeca6814c0"
+  }, {
+    "name" : "CopyHoldingsMicroServicesJSON",
+    "version" : "1.0",
+    "etag" : "2249e372-ff20-497c-be12-461ee32063e4"
+  }, {
+    "name" : "dbpChequeManagementServices",
+    "version" : "1.0",
+    "etag" : "91d21a37-fbcf-4029-ae11-b6a3c94573a9"
+  }, {
+    "name" : "HoldingsMicroServicesJSON",
+    "version" : "1.0",
+    "etag" : "e5dbd79d-b1bf-462c-a68f-09adab44b40d"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "ChequeManagement",
+    "version" : "1.0",
+    "etag" : "92e31932-f216-4bff-9c4b-a479f1713040"
+  }, {
+    "name" : "DocumentManagement",
+    "version" : "1.0",
+    "etag" : "d27ea4fa-3b35-4768-aebc-bfe62705abda"
+  }, {
+    "name" : "Holdings",
+    "version" : "1.0",
+    "etag" : "c15338c9-903f-4d02-be0b-cdf4b4d84bdb"
+  } ]
+}

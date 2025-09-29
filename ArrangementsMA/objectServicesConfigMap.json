@@ -1,0 +1,177 @@
+{
+    "CardlessCash_CardlessTransaction": {
+        "servicename": "CardlessCash",
+        "serviceid": "132bd252-44d9-4214-a428-c5ce82391082",
+        "type": "objectsvcs",
+        "objectname": "CardlessTransaction",
+        "objectid": "18095"
+    },
+    "CheckDeposit_CheckDepositTransaction": {
+        "servicename": "CheckDeposit",
+        "serviceid": "c0ebb72d-7500-4f73-a0b2-f0ea81d6cb2e",
+        "type": "objectsvcs",
+        "objectname": "CheckDepositTransaction",
+        "objectid": "18084"
+    },
+    "ChequeManagement_ChequeBook": {
+        "servicename": "ChequeManagement",
+        "serviceid": "e90ea171-f69e-4c6c-bf61-c9656087b870",
+        "type": "objectsvcs",
+        "objectname": "ChequeBook",
+        "objectid": "4840"
+    },
+    "ChequeManagement_ChequeDetails": {
+        "servicename": "ChequeManagement",
+        "serviceid": "e90ea171-f69e-4c6c-bf61-c9656087b870",
+        "type": "objectsvcs",
+        "objectname": "ChequeDetails",
+        "objectid": "4841"
+    },
+    "ChequeManagement_RevokeStopPayment": {
+        "servicename": "ChequeManagement",
+        "serviceid": "e90ea171-f69e-4c6c-bf61-c9656087b870",
+        "type": "objectsvcs",
+        "objectname": "RevokeStopPayment",
+        "objectid": "4842"
+    },
+    "ChequeManagement_StopPayment": {
+        "servicename": "ChequeManagement",
+        "serviceid": "e90ea171-f69e-4c6c-bf61-c9656087b870",
+        "type": "objectsvcs",
+        "objectname": "StopPayment",
+        "objectid": "4843"
+    },
+    "DIHoldings_DITransactionsList": {
+        "servicename": "DIHoldings",
+        "serviceid": "5d36754d-36cd-4b27-9088-785e18ae6e9e",
+        "type": "objectsvcs",
+        "objectname": "DITransactionsList",
+        "objectid": "18348"
+    },
+    "DocumentManagement_CombinedStatements": {
+        "servicename": "DocumentManagement",
+        "serviceid": "95c471cb-8fcf-40a7-a0df-9c71220b3dec",
+        "type": "objectsvcs",
+        "objectname": "CombinedStatements",
+        "objectid": "4782"
+    },
+    "DocumentManagement_CustomerAdvice": {
+        "servicename": "DocumentManagement",
+        "serviceid": "95c471cb-8fcf-40a7-a0df-9c71220b3dec",
+        "type": "objectsvcs",
+        "objectname": "CustomerAdvice",
+        "objectid": "4783"
+    },
+    "DocumentManagement_CustomerAdvice_BillPay": {
+        "servicename": "DocumentManagement",
+        "serviceid": "95c471cb-8fcf-40a7-a0df-9c71220b3dec",
+        "type": "objectsvcs",
+        "objectname": "CustomerAdvice_BillPay",
+        "objectid": "4784"
+    },
+    "DocumentManagement_DownloadTransactionPDF": {
+        "servicename": "DocumentManagement",
+        "serviceid": "95c471cb-8fcf-40a7-a0df-9c71220b3dec",
+        "type": "objectsvcs",
+        "objectname": "DownloadTransactionPDF",
+        "objectid": "4785"
+    },
+    "DocumentManagement_DownloadTransactionReport": {
+        "servicename": "DocumentManagement",
+        "serviceid": "95c471cb-8fcf-40a7-a0df-9c71220b3dec",
+        "type": "objectsvcs",
+        "objectname": "DownloadTransactionReport",
+        "objectid": "4786"
+    },
+    "DocumentManagement_DownloadTransactions": {
+        "servicename": "DocumentManagement",
+        "serviceid": "95c471cb-8fcf-40a7-a0df-9c71220b3dec",
+        "type": "objectsvcs",
+        "objectname": "DownloadTransactions",
+        "objectid": "4787"
+    },
+    "DocumentManagement_EStatements": {
+        "servicename": "DocumentManagement",
+        "serviceid": "95c471cb-8fcf-40a7-a0df-9c71220b3dec",
+        "type": "objectsvcs",
+        "objectname": "EStatements",
+        "objectid": "4788"
+    },
+    "DocumentManagement_TransactionAdviceObject": {
+        "servicename": "DocumentManagement",
+        "serviceid": "95c471cb-8fcf-40a7-a0df-9c71220b3dec",
+        "type": "objectsvcs",
+        "objectname": "TransactionAdviceObject",
+        "objectid": "4789"
+    },
+    "Holdings_ArrangementDetails": {
+        "servicename": "Holdings",
+        "serviceid": "24a4f495-d542-44d4-81be-f1c1740c4521",
+        "type": "objectsvcs",
+        "objectname": "ArrangementDetails",
+        "objectid": "4710"
+    },
+    "Holdings_ArrangementPreferences": {
+        "servicename": "Holdings",
+        "serviceid": "24a4f495-d542-44d4-81be-f1c1740c4521",
+        "type": "objectsvcs",
+        "objectname": "ArrangementPreferences",
+        "objectid": "4711"
+    },
+    "Holdings_ArrangementPreferences_1": {
+        "servicename": "Holdings",
+        "serviceid": "24a4f495-d542-44d4-81be-f1c1740c4521",
+        "type": "objectsvcs",
+        "objectname": "ArrangementPreferences_1",
+        "objectid": "4712"
+    },
+    "Holdings_BlockFunds": {
+        "servicename": "Holdings",
+        "serviceid": "24a4f495-d542-44d4-81be-f1c1740c4521",
+        "type": "objectsvcs",
+        "objectname": "BlockFunds",
+        "objectid": "4713"
+    },
+    "Holdings_CashPositions": {
+        "servicename": "Holdings",
+        "serviceid": "24a4f495-d542-44d4-81be-f1c1740c4521",
+        "type": "objectsvcs",
+        "objectname": "CashPositions",
+        "objectid": "4714"
+    },
+    "Holdings_CustomView": {
+        "servicename": "Holdings",
+        "serviceid": "24a4f495-d542-44d4-81be-f1c1740c4521",
+        "type": "objectsvcs",
+        "objectname": "CustomView",
+        "objectid": "4715"
+    },
+    "Holdings_DigitalArrangements": {
+        "servicename": "Holdings",
+        "serviceid": "24a4f495-d542-44d4-81be-f1c1740c4521",
+        "type": "objectsvcs",
+        "objectname": "DigitalArrangements",
+        "objectid": "4716"
+    },
+    "Holdings_TransactionsList": {
+        "servicename": "Holdings",
+        "serviceid": "24a4f495-d542-44d4-81be-f1c1740c4521",
+        "type": "objectsvcs",
+        "objectname": "TransactionsList",
+        "objectid": "4717"
+    },
+    "NUBChequeManagement_NUBChequeDetails": {
+        "servicename": "NUBChequeManagement",
+        "serviceid": "9d908061-a8de-4f1a-b3cf-2d931e2bab24",
+        "type": "objectsvcs",
+        "objectname": "NUBChequeDetails",
+        "objectid": "16747"
+    },
+    "ServiceRequestManagement_ServiceRequest": {
+        "servicename": "ServiceRequestManagement",
+        "serviceid": "07df460f-0442-4eab-b30c-0d60581582cb",
+        "type": "objectsvcs",
+        "objectname": "ServiceRequest",
+        "objectid": "17993"
+    }
+}

@@ -1,0 +1,154 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "64dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s78a5f26c9f14cec9ebed1bb46098f80",
+    "_src_": "digital_banking.png",
+    "_top_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "102dp"
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yLabel": "Login Kony Logo",
+        "a11yValue": ""
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "14%"
+    },
+    "containerweight": 100,
+    "id": "imgKony",
+    "imagescalemode": 1,
+    "imagewhiledownloading": "img_transparent.png",
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": false,
+    "kuid": "f0ce00c464434850b2c31165744b6378",
+    "name": "kony.ui.Image2",
+    "parent": "flxMain",
+    "pf": "frmLogin",
+    "responsiveData": {
+        "b1": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "height": {
+                "type": "string",
+                "value": "60dp"
+            },
+            "isVisible": true,
+            "left": {
+                "type": "string",
+                "value": "59dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "5%"
+            },
+            "width": {
+                "type": "string",
+                "value": "175px"
+            }
+        },
+        "b2": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "height": {
+                "type": "string",
+                "value": "55dp"
+            },
+            "isVisible": true,
+            "left": {
+                "type": "string",
+                "value": "22%"
+            },
+            "top": {
+                "type": "string",
+                "value": "100dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "175dp"
+            }
+        },
+        "b3": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "height": {
+                "type": "string",
+                "value": "45dp"
+            },
+            "isVisible": true,
+            "left": {
+                "type": "string",
+                "value": "10%"
+            },
+            "top": {
+                "type": "string",
+                "value": "70dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "140dp"
+            }
+        },
+        "b4": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "height": {
+                "type": "string",
+                "value": "55dp"
+            },
+            "isVisible": true,
+            "left": {
+                "type": "string",
+                "value": "17%"
+            },
+            "top": {
+                "type": "string",
+                "value": "100dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "175dp"
+            }
+        }
+    },
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 6
+}

@@ -1,0 +1,91 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "number",
+        "value": ""
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sfbbba35ede4457b94eb681b72349b98",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "23%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "68%"
+    },
+    "accessibilityconfig": {
+        "a11yHint": "Click Continue to proceed",
+        "a11yLabel": "Continue"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s7ab6326aaf94c28b90b61fcb1b54547"
+        }
+    },
+    "displaytext": true,
+    "focusskin": "sfd0ce0d7f454c9f83c7e815a90a8a55",
+    "id": "btnProceed",
+    "info": null,
+    "isvisible": true,
+    "kuid": "j790d8db281d4acd820a4d26e5fc8549",
+    "name": "kony.ui.Button",
+    "parent": "flxTandC",
+    "pf": "frmPreTermsandCondition",
+    "responsiveData": {
+        "b2": {
+            "top": {
+                "type": "string",
+                "value": "67dp"
+            }
+        },
+        "b3": {
+            "left": {
+                "type": "string",
+                "value": ""
+            },
+            "top": {
+                "type": "string",
+                "value": "3%"
+            },
+            "width": {
+                "type": "string",
+                "value": "85%"
+            }
+        },
+        "b4": {
+            "top": {
+                "type": "string",
+                "value": "8%"
+            }
+        }
+    },
+    "texti18n": "i18n.common.proceed",
+    "tooltip": "Continue",
+    "wType": "Button",
+    "zindex": 1
+}

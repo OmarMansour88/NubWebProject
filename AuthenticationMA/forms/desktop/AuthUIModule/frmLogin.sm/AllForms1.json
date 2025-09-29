@@ -1,0 +1,260 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "number",
+        "value": ""
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "scbd4cac3526468089bf3013adff0549",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "AllForms": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "j16f3858f3de470fb2fd19045ea4e600",
+                "srcKUID": "aef6ac17436948abacbe12ea5a1d5e5b",
+                "wType": "FlexContainer"
+            },
+            "bottom": {},
+            "isVisible": false,
+            "left": {},
+            "responsiveData": {
+                "b1": {
+                    "bottom": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "isVisible": false,
+                    "left": {
+                        "type": "string",
+                        "value": "79dp"
+                    },
+                    "top": {
+                        "type": "string",
+                        "value": "67%"
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "240dp"
+                    },
+                    "zIndex": 50
+                },
+                "b2": {
+                    "bottom": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "isVisible": false,
+                    "left": {
+                        "type": "string",
+                        "value": "38dp"
+                    },
+                    "top": {
+                        "type": "string",
+                        "value": "65%"
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "240dp"
+                    }
+                },
+                "b3": {
+                    "bottom": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "isVisible": false,
+                    "left": {
+                        "type": "string",
+                        "value": "35dp"
+                    },
+                    "top": {
+                        "type": "string",
+                        "value": "0dp"
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "240dp"
+                    },
+                    "zIndex": 10
+                },
+                "b4": {
+                    "bottom": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "isVisible": false,
+                    "left": {
+                        "type": "string",
+                        "value": "38dp"
+                    },
+                    "top": {
+                        "type": "string",
+                        "value": "0dp"
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "240dp"
+                    }
+                }
+            },
+            "top": {},
+            "width": {},
+            "zIndex": {}
+        },
+        "RichTextInfo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fdf70f0a783847c6812053bb225234ba",
+                "srcKUID": "i86f020750564f6ba173ce46ea601ab5",
+                "wType": "RichText"
+            },
+            "responsiveData": {
+                "b1": {
+                    "i18n_text": "i18n.login.NAOInfo",
+                    "text": "Using this option you can open retail account only like savings account, checking account, credit card etc."
+                },
+                "b2": {
+                    "i18n_text": "i18n.login.NAOInfo",
+                    "text": "Using this option you can open retail account only like savings account, checking account, credit card etc."
+                },
+                "b4": {
+                    "i18n_text": "i18n.login.NAOInfo",
+                    "text": "Using this option you can open retail account only like savings account, checking account, credit card etc."
+                }
+            }
+        },
+        "flxAccountType": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "da73d4a0d04c4e50a32fece2a604a8cd",
+                "srcKUID": "ed52287fd449401ba9a5f005c99e3f35",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxCross": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e904a8842c59450a8ef6369365b0d0ce",
+                "srcKUID": "d452c358ed1445a58e5fdff55685498f",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxInformation": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j62e02be81ba4ecb84b43edaecde310c",
+                "srcKUID": "be414255ea60408894eb2a9b719b864e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxInformationText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g137e62d2fc642f3b0189b3e8b03524a",
+                "srcKUID": "fa4dbab87ecf4647a21060118b02bd03",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgCross": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "efaf94c6724b457eaa31baa41ac38ff9",
+                "srcKUID": "d86a08cea857467eae13f42ed033a771",
+                "wType": "Image"
+            },
+            "src": "bbcloseicon.png"
+        },
+        "imgToolTip": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ia215463b2924502b01ce9e8e800840d",
+                "srcKUID": "f9274528aa6b41bfb057f17c510b73b5",
+                "wType": "Image"
+            },
+            "src": "tool_tip.png"
+        },
+        "lblInfo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fc928858eb2e40389ca78eac50f5e736",
+                "srcKUID": "c6ecc9c129c943b396152e99a30763f6",
+                "wType": "Label"
+            },
+            "responsiveData": {
+                "b1": {
+                    "i18n_text": "i18n.WireTransfers.Information",
+                    "text": "Information"
+                },
+                "b2": {
+                    "i18n_text": "i18n.WireTransfers.Information",
+                    "text": "Information"
+                },
+                "b4": {
+                    "i18n_text": "i18n.WireTransfers.Information",
+                    "text": "Information"
+                }
+            }
+        },
+        "lblSeperator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b0e41c92e912434799c544234ef3bbe6",
+                "srcKUID": "f142d5aa44384a3fb94504a874cbbb95",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "AllForms1",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "j16f3858f3de470fb2fd19045ea4e600",
+    "layouttype": 4,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxLogin",
+    "pf": "frmLogin",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "aef6ac17436948abacbe12ea5a1d5e5b",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

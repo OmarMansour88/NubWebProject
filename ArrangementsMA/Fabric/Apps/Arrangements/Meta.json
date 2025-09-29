@@ -1,0 +1,195 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "Arrangements",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "ArrangementMicroService",
+    "version" : "1.0",
+    "etag" : "1221bb8d-71b7-4843-acb2-f125ed71802a"
+  }, {
+    "name" : "ArrangementsJavaServices",
+    "version" : "1.0",
+    "etag" : "987db9cc-523f-4bc6-a31e-6b0a078a7d0a"
+  }, {
+    "name" : "ArrangementsMicroServicesJava",
+    "version" : "1.0",
+    "etag" : "7fc07c4f-4e11-4559-a4f2-27cd5586f89f"
+  }, {
+    "name" : "ArrangementsT24ISTransactions",
+    "version" : "1.0",
+    "etag" : "0e96155a-ae64-41c7-a460-12d977c31312"
+  }, {
+    "name" : "ArrangementsT24Services",
+    "version" : "1.0",
+    "etag" : "95875b3f-3d1d-4004-a231-38e87c34abba"
+  }, {
+    "name" : "ArrangementT24DI",
+    "version" : "1.0",
+    "etag" : "8941447e-016e-40cd-9dad-fc476ca2154d"
+  }, {
+    "name" : "BillPayEnrollmentJavaServices",
+    "version" : "1.0",
+    "etag" : "1cd3fbf0-2ec2-4306-9ded-7a07e9deeeb7"
+  }, {
+    "name" : "CardlessCashServices",
+    "version" : "1.0",
+    "etag" : "b041f3b7-2f95-4eb2-ab7f-3c312ebcad79"
+  }, {
+    "name" : "CashPositionsJavaServices",
+    "version" : "1.0",
+    "etag" : "f21b26ec-1d43-4839-bba9-dd1475815190"
+  }, {
+    "name" : "CheckDepositServices",
+    "version" : "1.0",
+    "etag" : "212d2eb2-2a6b-4466-8f79-0fd9dc839b61"
+  }, {
+    "name" : "ChequeManagementT24Services",
+    "version" : "1.0",
+    "etag" : "40701cbc-fe74-43d3-8419-f665a27f92e8"
+  }, {
+    "name" : "CombinedStatementsJavaServices",
+    "version" : "1.0",
+    "etag" : "d76e1912-e7dc-4e8d-b57e-03b8f7494960"
+  }, {
+    "name" : "CopyHoldingsMicroServicesJSON",
+    "version" : "1.0",
+    "etag" : "5cad3963-369c-4548-9531-38fe7398c857"
+  }, {
+    "name" : "CustomerAdviceJavaServices",
+    "version" : "1.0",
+    "etag" : "1e410d57-1125-429f-8489-1fd122c919af"
+  }, {
+    "name" : "dbpChequeManagementServices",
+    "version" : "1.0",
+    "etag" : "2c132807-871e-4963-9969-dfa2a0066f7c"
+  }, {
+    "name" : "dbpServiceRequest",
+    "version" : "1.0",
+    "etag" : "2d23ea05-c5b8-47bd-8729-4c89485ef507"
+  }, {
+    "name" : "DIArrangementsT24Transactions",
+    "version" : "1.0",
+    "etag" : "0e57a1ef-02d3-4fcd-a456-041a7a98ac1c"
+  }, {
+    "name" : "DisputeTransactionJavaServices",
+    "version" : "1.0",
+    "etag" : "ec667353-2f34-44b6-acaf-7242a02cfbe3"
+  }, {
+    "name" : "DMAPILogin",
+    "version" : "1.0",
+    "etag" : "58ffa671-d7d7-49a1-b1a4-c37ac39de2b9"
+  }, {
+    "name" : "DownloadReportJavaServices",
+    "version" : "1.0",
+    "etag" : "3d2ca982-eebe-42fb-a668-54bf90cae8e3"
+  }, {
+    "name" : "DownloadTransactionJavaService",
+    "version" : "1.0",
+    "etag" : "93338803-8f15-4b1c-80d9-f7467ef86eb4"
+  }, {
+    "name" : "HoldingsMicroServicesJava",
+    "version" : "1.0",
+    "etag" : "5677a8a5-ad4b-41b0-94e0-ad8927e23874"
+  }, {
+    "name" : "HoldingsMicroServicesJSON",
+    "version" : "1.0",
+    "etag" : "e3f85e5f-2750-4ce1-9df4-fccbf578cd71"
+  }, {
+    "name" : "MBSCchequeManagementJava",
+    "version" : "1.0",
+    "etag" : "1c075fe1-e935-40e3-bf8e-caa66f8f7502"
+  }, {
+    "name" : "NUBChequeManagementT24Services",
+    "version" : "1.0",
+    "etag" : "dbf94a6b-12e1-41f0-b7ce-10bdd7de5bfb"
+  }, {
+    "name" : "P2PEnrollmentJavaServices",
+    "version" : "1.0",
+    "etag" : "d41541c5-9754-41e5-9391-5c30731fd1a7"
+  }, {
+    "name" : "pushCombinedStatementEvent",
+    "version" : "1.0",
+    "etag" : "0b21839e-6414-4b81-bef3-708cc1de26f1"
+  }, {
+    "name" : "pushEventIdentityService",
+    "version" : "1.0",
+    "etag" : "390266dd-015b-4969-a576-5fbbb3164a84"
+  }, {
+    "name" : "T24ArrangementServices",
+    "version" : "1.0",
+    "etag" : "aa3753b3-53b4-4252-abca-6b22518f6a41"
+  }, {
+    "name" : "T24DocumentService",
+    "version" : "1.0",
+    "etag" : "6e3205a6-b8b4-4d28-b2ce-bb45d792d7c0"
+  }, {
+    "name" : "T24IrisArrangementServices",
+    "version" : "1.0",
+    "etag" : "3229e1e6-3198-4a1b-8e5a-41270de33300"
+  }, {
+    "name" : "TransactionAdviceJava",
+    "version" : "1.0",
+    "etag" : "1d9dc5c9-93e3-43b5-b507-2d3e971042e4"
+  }, {
+    "name" : "TransactionAdviceJavaServices",
+    "version" : "1.0",
+    "etag" : "dfe3dfa6-f430-486c-b8d7-270537a61740"
+  }, {
+    "name" : "TransactionAdviceJSON",
+    "version" : "1.0",
+    "etag" : "0ba254b8-de2c-4039-a370-475206b056c6"
+  }, {
+    "name" : "TransactionAdviceJSONServices",
+    "version" : "1.0",
+    "etag" : "9f024b35-1a43-4b4d-a026-b2b4bf001238"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "TransactionsOrchServices",
+    "version" : "1.0",
+    "etag" : "4c8fe351-850a-40e6-a60a-19c8b5641975"
+  }, {
+    "name" : "CreateDisputeTransactionorch",
+    "version" : "1.0",
+    "etag" : "1a5e10ff-035c-4179-94bd-d68922222222"
+  }, {
+    "name" : "ArrangementsOrchServices",
+    "version" : "1.0",
+    "etag" : "1a5e10ff-035d-2179-94bd-d6895d1fa424"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "CardlessCash",
+    "version" : "1.0",
+    "etag" : "f80327c5-6fdd-4321-8dbe-7e9730d18d90"
+  }, {
+    "name" : "CheckDeposit",
+    "version" : "1.0",
+    "etag" : "9423516d-69da-4cfc-a6a7-4322830a4b0e"
+  }, {
+    "name" : "ChequeManagement",
+    "version" : "1.0",
+    "etag" : "25f9fe54-c52f-45a5-b5e7-d2739b54566b"
+  }, {
+    "name" : "DIHoldings",
+    "version" : "1.0",
+    "etag" : "3bbebd7f-b2fc-41f4-8816-e5e8afcfc455"
+  }, {
+    "name" : "DocumentManagement",
+    "version" : "1.0",
+    "etag" : "ff1201d8-306f-44ee-9533-a837d01435a4"
+  }, {
+    "name" : "Holdings",
+    "version" : "1.0",
+    "etag" : "73a0e39a-73f2-41c7-bd3c-26aa30c4e14f"
+  }, {
+    "name" : "NUBChequeManagement",
+    "version" : "1.0",
+    "etag" : "ce0997f1-db13-4793-8023-bd492ff8ccc5"
+  }, {
+    "name" : "ServiceRequestManagement",
+    "version" : "1.0",
+    "etag" : "8930deb4-e741-4857-9b0e-555d4db31ffa"
+  } ],
+  "identity" : [ "DbxAPIIdentityService", "DbxUserLogin" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

@@ -1,0 +1,164 @@
+{
+    "classname": "information",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "j102d22a558442d7acd2189e85619f1e",
+                    "paramList": [
+                        {
+                            "name": "infoData"
+                        }
+                    ],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f2e85ececfd5410699da81172f937038",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f5142078343445938744b003da6e485a",
+                    "paramList": [],
+                    "propertyKey": "setUI",
+                    "pw": {
+                        "displayName": "setUI",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f2e85ececfd5410699da81172f937038",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ca4d3b5a38364f64a60fd859fcd16d11",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "crossOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "crossOnClick",
+                        "srcWidget": "flxCross",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e2dbc51e448944bba2cef62f5760922f"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Data",
+                "Image",
+                "Skin"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Data",
+                    "kuid": "j72780075a8647839700dc023223cbe7",
+                    "originalPropertyKey": "headerText",
+                    "propertyIndex": 1,
+                    "propertyKey": "headerText",
+                    "pw": {
+                        "displayName": "Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f2e85ececfd5410699da81172f937038",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Skin",
+                    "kuid": "j669cd960ea54e81bdfb06ec2e5453d3",
+                    "originalPropertyKey": "sknHeader",
+                    "propertyIndex": 1,
+                    "propertyKey": "sknHeader",
+                    "pw": {
+                        "displayName": "Header",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f2e85ececfd5410699da81172f937038",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Image",
+                    "kuid": "j588bf353aa5471e8c8032d0c5d8ff72",
+                    "originalPropertyKey": "crossImage",
+                    "propertyIndex": 1,
+                    "propertyKey": "crossImage",
+                    "pw": {
+                        "displayName": "Cross Image",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f2e85ececfd5410699da81172f937038",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Data",
+                    "kuid": "h11a338879144be7a4234338addcff8f",
+                    "originalPropertyKey": "infoText",
+                    "propertyIndex": 2,
+                    "propertyKey": "infoText",
+                    "pw": {
+                        "displayName": "Info",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f2e85ececfd5410699da81172f937038",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Skin",
+                    "kuid": "c24de61813a34396b03e0c389bab08e6",
+                    "originalPropertyKey": "sknInfo",
+                    "propertyIndex": 2,
+                    "propertyKey": "sknInfo",
+                    "pw": {
+                        "displayName": "Info",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f2e85ececfd5410699da81172f937038",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.InfinityMB.ArrangementsMA",
+    "version": "1.0.0"
+}

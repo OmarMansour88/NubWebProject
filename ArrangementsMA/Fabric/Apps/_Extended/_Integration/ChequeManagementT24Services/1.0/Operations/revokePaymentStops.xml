@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="" groupType="" id="" passwordencrypted="" security="authorized_app_user" type="" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value="[{&quot;name&quot;:&quot;com.temenos.infinity.api.stoppayments.RevokePaymentStopPreProcessor&quot;,&quot;disabled&quot;:true,&quot;isBase&quot;:true}]"/>
+        <config-param api-version="" appid="" name="postprocessorname" value="[]"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="coreaccountcompanyId" order="" paramOrder="8" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="" isExtended="true">
+            <inOutPathInBase>[]</inOutPathInBase>
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="{&#10;  &quot;header&quot;: {&#10;  },&#10;  &quot;body&quot;: {&#10;    &quot;stops&quot;: [&#10;       {&#10;        #if($checkNumber1 &amp;&amp; &quot;$checkNumber1&quot;!=&quot;&quot;)&#10;           &quot;chequeId&quot;: &quot;$checkNumber1&quot;,&#10;        #end&#10;        #if($revokeDate &amp;&amp; &quot;$revokeDate&quot;!=&quot;&quot;)&#10;           &quot;revokeDate&quot; : &quot;$revokeDate&quot;,&#10;        #end&#10;        #if($revokeChequeTypeId &amp;&amp; &quot;$revokeChequeTypeId&quot;!=&quot;&quot;)&#10;           &quot;revokeChequeTypeId&quot;:&quot;$revokeChequeTypeId&quot;&#10;        #end&#10;        #if($isRevoke &amp;&amp; &quot;$isRevoke&quot;!=&quot;&quot;)&#10;           &quot;isRevoke&quot;: &quot;YES&quot;&#10;        #end &#10;      }&#10;    ]&#10;  }&#10;}" description="" encode="false" format="" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="{&#10;  &quot;header&quot;: {&#10;  },&#10;  &quot;body&quot;: {&#10;    &quot;stops&quot;: [&#10;       {&#10;        #if($checkNumber1 &amp;&amp; &quot;$checkNumber1&quot;!=&quot;&quot;)&#10;           &quot;chequeId&quot;: &quot;$checkNumber1&quot;,&#10;        #end&#10;        #if($revokeDate &amp;&amp; &quot;$revokeDate&quot;!=&quot;&quot;)&#10;           &quot;revokeDate&quot; : &quot;$revokeDate&quot;,&#10;        #end&#10;        #if($revokeChequeTypeId &amp;&amp; &quot;$revokeChequeTypeId&quot;!=&quot;&quot;)&#10;           &quot;revokeChequeTypeId&quot;:&quot;$revokeChequeTypeId&quot;&#10;        #end&#10;        #if($isRevoke &amp;&amp; &quot;$isRevoke&quot;!=&quot;&quot;)&#10;           &quot;isRevoke&quot;: &quot;YES&quot;&#10;        #end &#10;      }&#10;    ]&#10;  }&#10;}" isExtended="false">
+            <accessType></accessType>
+        </template-param>
+    </service-input>
+    <service-output passthrough="false" isExtended="false"/>
+</service>

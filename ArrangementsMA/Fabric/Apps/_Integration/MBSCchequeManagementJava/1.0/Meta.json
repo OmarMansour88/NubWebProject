@@ -1,0 +1,12 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-checkManagement.jar",
+    "type" : "jar"
+  }, {
+    "name" : "MBSCchequeManagement.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true,
+  "mapType" : "java.util.HashMap"
+}
