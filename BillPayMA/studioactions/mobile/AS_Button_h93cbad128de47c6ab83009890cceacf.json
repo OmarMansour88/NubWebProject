@@ -1,0 +1,28 @@
+{
+    "AS_Button_h93cbad128de47c6ab83009890cceacf": {
+        "id": "AS_Button_h93cbad128de47c6ab83009890cceacf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMenu",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f7a47df133bd45a88327a2338e4a843a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__h059a97d115641a9913309ab5bf75581",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onBillPayClick",
+            "display": "onBillPayClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

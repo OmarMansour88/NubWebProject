@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "field4Value": "{\"mapping\":\"{$.c.addressLine1}, {$.c.addressLine2}, {$.c.cityName}, {$.c.state},{$.c.country},{$.c.zipCode}\",\"type\":\"Label\",\"widgetProps\":{\"height\":\"60dp\",\"width\":\"100%\"},\"widgetPropLabel\":{\"width\":\"100%\"}}",
+        "field7Key": "{\"text\":\"Linked With:\"}",
+        "field7Value": "{\"mapping\":\"{$.c.noOfCustomersLinked} Customer(s)\",\"type\":\"Label\",\"widgetProps\":{\"height\":\"19dp\",\"width\":\"100%\"},\"widgetPropLabel\":{\"width\":\"100%\"}}"
+    },
+    "enablescrolling": true,
+    "id": "payeeDetailsNative",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j1ea3ed91a374125a4e5979dad54a2a8",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxScrollMain",
+    "pf": "frmBillPayPayeeDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "be4a2ca5a87a4203a3a3d659cc4a15a3",
+    "wType": "UserWidgetInstance"
+}

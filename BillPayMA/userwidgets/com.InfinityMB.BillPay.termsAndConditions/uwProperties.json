@@ -1,0 +1,87 @@
+{
+    "classname": "termsAndConditions",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bdff3ceb75b6442aa0c63359aab56df0",
+                    "paramList": [],
+                    "propertyKey": "setContext",
+                    "pw": {
+                        "displayName": "setContext",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g687666f50b54804b6979ea093954bbf",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f8df3a9c4f0b4beaaff3438d0e34e0b0",
+                    "paramList": [],
+                    "propertyKey": "setParentScope",
+                    "pw": {
+                        "displayName": "setParentScope",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g687666f50b54804b6979ea093954bbf",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "h56f1bbd3ad649859201bdbf6a89a196",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onError",
+                    "pw": {
+                        "displayName": "onError",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g687666f50b54804b6979ea093954bbf",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Please read the following agreement. It containes specific information regarding Terms and Conditions of your eBill services.<br> Terms and Conditions for the eBiller!<br> By accessing the information provided at the Temenos Digital Banking site, you agree to the following terms and conditions. The material available on these sites has been produced by independent providers and are not the opinions or recommendations of Temenos Digital Banking. Proin elit quam, feugiat quis sem eu, euismod feugiat lacus. Donec posuere sapien eu auctor lacinia. Quisque dictum augue nec auctor venenatis. Cras tincidunt tristique mauris, non tincidunt metus elementum quis.",
+                    "group": "General",
+                    "kuid": "fcb5bcbb3dc44524be4b042e7281e1bd",
+                    "originalPropertyKey": "tnc",
+                    "propertyIndex": 1,
+                    "propertyKey": "tnc",
+                    "pw": {
+                        "displayName": "Terms & Conditions",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g687666f50b54804b6979ea093954bbf",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.InfinityMB.BillPay",
+    "version": "1.0.0"
+}

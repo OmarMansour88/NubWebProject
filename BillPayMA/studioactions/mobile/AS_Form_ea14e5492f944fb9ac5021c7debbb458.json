@@ -1,0 +1,28 @@
+{
+    "AS_Form_ea14e5492f944fb9ac5021c7debbb458": {
+        "id": "AS_Form_ea14e5492f944fb9ac5021c7debbb458",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoginPage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a54d4f330dff457c89f084c009d8fbf7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__if2af1ef0a634e60b7d8c5b14f993d1f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onNavigate",
+            "display": "onNavigate",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
