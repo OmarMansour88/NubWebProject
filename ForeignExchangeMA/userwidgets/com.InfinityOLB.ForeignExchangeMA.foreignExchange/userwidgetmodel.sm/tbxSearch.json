@@ -1,0 +1,123 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s657669417634ed1ac005864e50d85fe",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "number",
+        "value": ""
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {},
+    "focusskin": null,
+    "id": "tbxSearch",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "fad7efc7b9354f4e984994d2f52e67fb",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxSearchContainer",
+    "pf": "userwidgetmodel",
+    "placeholderi18n": "i18n.foreignExchange.searchPlaceholder",
+    "placeholderskin": "s657669417634ed1ac005864e50d85fe",
+    "responsiveData": {
+        "b1": {
+            "left": {
+                "type": "string",
+                "value": "8dp"
+            },
+            "placeholder": "Search by country code,currency or country",
+            "width": {
+                "type": "string",
+                "value": "85%"
+            }
+        },
+        "b2": {
+            "desktopweb": {
+                "placeholderSkin": "s657669417634ed1ac005864e50d85fe"
+            },
+            "disabledSkins": {},
+            "left": {
+                "type": "string",
+                "value": "10dp"
+            },
+            "placeholder": "Search by country code, currency ...",
+            "placeholderSkin": "s657669417634ed1ac005864e50d85fe",
+            "skin": "sea05f0b2f1f4b57a7c043d6c947516a",
+            "text": "",
+            "width": {
+                "type": "string",
+                "value": "80%"
+            }
+        },
+        "b3": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "placeholder": "Search by country code..."
+        },
+        "b4": {
+            "left": {
+                "type": "string",
+                "value": "8dp"
+            },
+            "placeholder": "Search by country code,currency or country",
+            "width": {
+                "type": "string",
+                "value": "85%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

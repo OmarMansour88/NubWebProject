@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "sdfea6be6fef42c7900594357e24f9fd",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "accessibilityconfig": {
+        "a11yHidden": true,
+        "a11yLabel": "Search byKeywords"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "txtDummy",
+    "info": null,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kiosk": {
+        "psp": {
+            "toolTip": ""
+        }
+    },
+    "kuid": "a3d129b219914e8ea0abd4f5307acf98",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxAccountsHeader",
+    "pf": "frmDashboard",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

@@ -1,0 +1,83 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        5,
+        0,
+        5,
+        0
+    ],
+    "_skin_": "seedaa0b7802464abee48a5dfa05c2fc",
+    "_text_": "L",
+    "_width_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_wrapping_": 2,
+    "accessibilityconfig": {
+        "a11yLabel": "Label"
+    },
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "padding": [
+            5,
+            0,
+            5,
+            0
+        ],
+        "paddingInPixel": true,
+        "psp": {}
+    },
+    "disabledSkins": {
+        "hoverSkin": "seedaa0b7802464abee48a5dfa05c2fc"
+    },
+    "id": "lblRadioButton",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "h221cc5b863d4b86889fc799dcdf8223",
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "flxSelectAccountList",
+    "pf": "segSelectAccountList",
+    "tooltip": "Label",
+    "wType": "Label",
+    "zindex": 1
+}
