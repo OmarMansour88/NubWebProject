@@ -1,0 +1,861 @@
+{
+    "Forms": {
+        "mobile": {
+            "frmAlertsAccountDetail": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsAccountDetailController",
+                "FormName": "SettingsUIModule/frmAlertsAccountDetail",
+                "friendlyName": "frmAlertsAccountDetail"
+            },
+            "frmAlertsAccountList": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsAccountListController",
+                "FormName": "SettingsUIModule/frmAlertsAccountList",
+                "friendlyName": "frmAlertsAccountList"
+            },
+            "frmAlertsBalanceUpdate": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsBalanceUpdateController",
+                "FormName": "SettingsUIModule/frmAlertsBalanceUpdate",
+                "friendlyName": "frmAlertsBalanceUpdate"
+            },
+            "frmAlertsDealsAndSecurity": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsDealsAndSecurityController",
+                "FormName": "SettingsUIModule/frmAlertsDealsAndSecurity",
+                "friendlyName": "frmAlertsDealsAndSecurity"
+            },
+            "frmAlertsMinimumBalance": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsMinimumBalanceController",
+                "FormName": "SettingsUIModule/frmAlertsMinimumBalance",
+                "friendlyName": "frmAlertsMinimumBalance"
+            },
+            "frmAlertsCommunication": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsCommunicationController",
+                "FormName": "SettingsUIModule/frmAlertsCommunication",
+                "friendlyName": "frmAlertsCommunication"
+            },
+            "frmAlertsCommunicationEdit": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsCommunicationEditController",
+                "FormName": "SettingsUIModule/frmAlertsCommunicationEdit",
+                "friendlyName": "frmAlertsCommunicationEdit"
+            },
+            "frmPreferencesAccountPreview": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesAccountPreviewController",
+                "FormName": "SettingsUIModule/frmPreferencesAccountPreview",
+                "friendlyName": "frmPreferencesAccountPreview"
+            },
+            "frmPreferencesDefaultAccount": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesDefaultAccountController",
+                "FormName": "SettingsUIModule/frmPreferencesDefaultAccount",
+                "friendlyName": "frmPreferencesDefaultAccount"
+            },
+            "frmPreferencesDefaultLogin": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesDefaultLoginController",
+                "FormName": "SettingsUIModule/frmPreferencesDefaultLogin",
+                "friendlyName": "frmPreferencesDefaultLogin"
+            },
+            "frmPreferencesDeviceDeRegistration": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesDeviceDeRegistrationController",
+                "FormName": "SettingsUIModule/frmPreferencesDeviceDeRegistration",
+                "friendlyName": "frmPreferencesDeviceDeRegistration"
+            },
+            "frmPreferencesDeviceRegSecCode": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesDeviceRegSecCodeController",
+                "FormName": "SettingsUIModule/frmPreferencesDeviceRegSecCode",
+                "friendlyName": "frmPreferencesDeviceRegSecCode"
+            },
+            "frmPreferencesDeviceRegistration": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesDeviceRegistrationController",
+                "FormName": "SettingsUIModule/frmPreferencesDeviceRegistration",
+                "friendlyName": "frmPreferencesDeviceRegistration"
+            },
+            "frmPreferencesFaceId": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesFaceIdController",
+                "FormName": "SettingsUIModule/frmPreferencesFaceId",
+                "friendlyName": "frmPreferencesFaceId"
+            },
+            "frmPreferencesPin": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesPinController",
+                "FormName": "SettingsUIModule/frmPreferencesPin",
+                "friendlyName": "frmPreferencesPin"
+            },
+            "frmPreferencesResetStep1": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesResetStep1Controller",
+                "FormName": "SettingsUIModule/frmPreferencesResetStep1",
+                "friendlyName": "frmPreferencesResetStep1"
+            },
+            "frmPreferencesResetStep2": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesResetStep2Controller",
+                "FormName": "SettingsUIModule/frmPreferencesResetStep2",
+                "friendlyName": "frmPreferencesResetStep2"
+            },
+            "frmPreferencesResetStep3": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesResetStep3Controller",
+                "FormName": "SettingsUIModule/frmPreferencesResetStep3",
+                "friendlyName": "frmPreferencesResetStep3"
+            },
+            "frmPreferencesTouchId": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesTouchIdController",
+                "FormName": "SettingsUIModule/frmPreferencesTouchId",
+                "friendlyName": "frmPreferencesTouchId"
+            },
+            "frmProfileAddAddress": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileAddAddressController",
+                "FormName": "SettingsUIModule/frmProfileAddAddress",
+                "friendlyName": "frmProfileAddAddress"
+            },
+            "frmProfileAdressType": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileAdressTypeController",
+                "FormName": "SettingsUIModule/frmProfileAdressType",
+                "friendlyName": "frmProfileAdressType"
+            },
+            "frmProfileChangeAndUpdatePassword": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileChangeAndUpdatePasswordController",
+                "FormName": "SettingsUIModule/frmProfileChangeAndUpdatePassword",
+                "friendlyName": "frmProfileChangeAndUpdatePassword"
+            },
+            "frmProfileChangePassword": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileChangePasswordController",
+                "FormName": "SettingsUIModule/frmProfileChangePassword",
+                "friendlyName": "frmProfileChangePassword"
+            },
+            "frmProfileChangeUsername": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileChangeUsernameController",
+                "FormName": "SettingsUIModule/frmProfileChangeUsername",
+                "friendlyName": "frmProfileChangeUsername"
+            },
+            "frmProfileConfirmAddressDetails": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileConfirmAddressDetailsController",
+                "FormName": "SettingsUIModule/frmProfileConfirmAddressDetails",
+                "friendlyName": "frmProfileConfirmAddressDetails"
+            },
+            "frmProfileConfirmDetails": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileConfirmDetailsController",
+                "FormName": "SettingsUIModule/frmProfileConfirmDetails",
+                "friendlyName": "frmProfileConfirmDetails"
+            },
+            "frmProfileContactType": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileContactTypeController",
+                "FormName": "SettingsUIModule/frmProfileContactType",
+                "friendlyName": "frmProfileContactType"
+            },
+            "frmProfileEditAddress": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileEditAddressController",
+                "FormName": "SettingsUIModule/frmProfileEditAddress",
+                "friendlyName": "frmProfileEditAddress"
+            },
+            "frmProfileEditAddressList": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileEditAddressListController",
+                "FormName": "SettingsUIModule/frmProfileEditAddressList",
+                "friendlyName": "frmProfileEditAddressList"
+            },
+            "frmProfileEditEmails": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileEditEmailsController",
+                "FormName": "SettingsUIModule/frmProfileEditEmails",
+                "friendlyName": "frmProfileEditEmails"
+            },
+            "frmProfileEditPhoneNumberMain": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileEditPhoneNumberMainController",
+                "FormName": "SettingsUIModule/frmProfileEditPhoneNumberMain",
+                "friendlyName": "frmProfileEditPhoneNumberMain"
+            },
+            "frmProfileEditPhoneNumbers": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileEditPhoneNumbersController",
+                "FormName": "SettingsUIModule/frmProfileEditPhoneNumbers",
+                "friendlyName": "frmProfileEditPhoneNumbers"
+            },
+            "frmProfileEnterEmailID": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileEnterEmailIDController",
+                "FormName": "SettingsUIModule/frmProfileEnterEmailID",
+                "friendlyName": "frmProfileEnterEmailID"
+            },
+            "frmProfileEnterPhoneNumber": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileEnterPhoneNumberController",
+                "FormName": "SettingsUIModule/frmProfileEnterPhoneNumber",
+                "friendlyName": "frmProfileEnterPhoneNumber"
+            },
+            "frmProfilePersonalDetails": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfilePersonalDetailsController",
+                "FormName": "SettingsUIModule/frmProfilePersonalDetails",
+                "friendlyName": "frmProfilePersonalDetails"
+            },
+            "frmProfileSecurityCode": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileSecurityCodeController",
+                "FormName": "SettingsUIModule/frmProfileSecurityCode",
+                "friendlyName": "frmProfileSecurityCode"
+            },
+            "frmProfileSelectLocation": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileSelectLocationController",
+                "FormName": "SettingsUIModule/frmProfileSelectLocation",
+                "friendlyName": "frmProfileSelectLocation"
+            },
+            "frmProfileUsername": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileUsernameController",
+                "FormName": "SettingsUIModule/frmProfileUsername",
+                "friendlyName": "frmProfileUsername"
+            },
+            "frmSettingsChangeLanguage": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmSettingsChangeLanguageController",
+                "FormName": "SettingsUIModule/frmSettingsChangeLanguage",
+                "friendlyName": "frmSettingsChangeLanguage"
+            },
+            "frmSettings": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmSettingsController",
+                "FormName": "SettingsUIModule/frmSettings",
+                "friendlyName": "frmSettings"
+            },
+            "frmSecurityAlertsSetting": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmSecurityAlertsSettingController",
+                "FormName": "SettingsUIModule/frmSecurityAlertsSetting"
+            },
+            "frmAccountAlertsList": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAccountAlertsListController",
+                "FormName": "SettingsUIModule/frmAccountAlertsList"
+            },
+            "frmAccountAlertsDetails": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAccountAlertsDetailsController",
+                "FormName": "SettingsUIModule/frmAccountAlertsDetails"
+            },
+            "frmAccountMinimumBalance": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAccountMinimumBalanceController",
+                "FormName": "SettingsUIModule/frmAccountMinimumBalance"
+            },
+            "frmAlertFrequency": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertFrequencyController",
+                "FormName": "SettingsUIModule/frmAlertFrequency"
+            },
+            "frmDealAlertsList": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmDealAlertsListController",
+                "FormName": "SettingsUIModule/frmDealAlertsList"
+            },
+            "frmAlertsList": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsListController",
+                "FormName": "SettingsUIModule/frmAlertsList",
+                "friendlyName": "frmAlertsList"
+            },
+            "frmAlertGroupsList": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertGroupsListController",
+                "FormName": "SettingsUIModule/frmAlertGroupsList",
+                "friendlyName": "frmAlertGroupsList"
+            },
+            "frmAlertsEditPreferences": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsEditPreferencesController",
+                "FormName": "SettingsUIModule/frmAlertsEditPreferences",
+                "friendlyName": "frmAlertsEditPreferences"
+            },
+            "frmAlertsDaySelection": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsDaySelectionController",
+                "FormName": "SettingsUIModule/frmAlertsDaySelection",
+                "friendlyName": "frmAlertsDaySelection"
+            },
+            "frmAlertsTimeSelection": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsTimeSelectionController",
+                "FormName": "SettingsUIModule/frmAlertsTimeSelection",
+                "friendlyName": "frmAlertsTimeSelection"
+            },
+            "frmAlertsFrequencySelection": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsFrequencySelectionController",
+                "FormName": "SettingsUIModule/frmAlertsFrequencySelection",
+                "friendlyName": "frmAlertsFrequencySelection"
+            },
+            "frmConsentManagement": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmConsentManagementController",
+                "FormName": "SettingsUIModule/frmConsentManagement",
+                "friendlyName": "frmConsentManagement"
+            },
+            "frmSelectTPP": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmSelectTPPController",
+                "FormName": "SettingsUIModule/frmSelectTPP",
+                "friendlyName": "frmSelectTPP"
+            },
+            "frmTppBankNameSelection": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmTppBankNameSelectionController",
+                "FormName": "SettingsUIModule/frmTppBankNameSelection",
+                "friendlyName": "frmTppBankNameSelection"
+            },
+            "frmTppAccountDetails": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmTppAccountDetailsController",
+                "FormName": "SettingsUIModule/frmTppAccountDetails",
+                "friendlyName": "frmTppAccountDetails"
+            }
+        },
+        "tablet": {
+            "frmPreferencesDeviceDeRegistration": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesDeviceDeRegistrationController",
+                "FormName": "SettingsUIModule/frmPreferencesDeviceDeRegistration",
+                "friendlyName": "frmPreferencesDeviceDeRegistration"
+            },
+            "frmPreferencesDeviceRegistration": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesDeviceRegistrationController",
+                "FormName": "SettingsUIModule/frmPreferencesDeviceRegistration",
+                "friendlyName": "frmPreferencesDeviceRegistration"
+            },
+            "frmPreferencesDeviceRegSecCode": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesDeviceRegSecCodeController",
+                "FormName": "SettingsUIModule/frmPreferencesDeviceRegSecCode",
+                "friendlyName": "frmPreferencesDeviceRegSecCode"
+            },
+            "frmSettings": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmSettingsController",
+                "FormName": "SettingsUIModule/frmSettings",
+                "friendlyName": "frmSettings"
+            },
+            "frmProfilePersonalDetails": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfilePersonalDetailsController",
+                "FormName": "SettingsUIModule/frmProfilePersonalDetails",
+                "friendlyName": "frmProfilePersonalDetails"
+            },
+            "frmProfileChangeUsername": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileChangeUsernameController",
+                "FormName": "SettingsUIModule/frmProfileChangeUsername",
+                "friendlyName": "frmProfileChangeUsername"
+            },
+            "frmProfileChangePassword": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileChangePasswordController",
+                "FormName": "SettingsUIModule/frmProfileChangePassword",
+                "friendlyName": "frmProfileChangePassword"
+            },
+            "frmProfileSecurityCode": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileSecurityCodeController",
+                "FormName": "SettingsUIModule/frmProfileSecurityCode",
+                "friendlyName": "frmProfileSecurityCode"
+            },
+            "frmProfileEditPhoneNumbers": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileEditPhoneNumbersController",
+                "FormName": "SettingsUIModule/frmProfileEditPhoneNumbers",
+                "friendlyName": "frmProfileEditPhoneNumbers"
+            },
+            "frmProfileEditEmails": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileEditEmailsController",
+                "FormName": "SettingsUIModule/frmProfileEditEmails",
+                "friendlyName": "frmProfileEditEmails"
+            },
+            "frmProfileEditAddressList": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileEditAddressListController",
+                "FormName": "SettingsUIModule/frmProfileEditAddressList",
+                "friendlyName": "frmProfileEditAddressList"
+            },
+            "frmProfileUsername": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileUsernameController",
+                "FormName": "SettingsUIModule/frmProfileUsername",
+                "friendlyName": "frmProfileUsername"
+            },
+            "frmProfileChangeAndUpdatePassword": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileChangeAndUpdatePasswordController",
+                "FormName": "SettingsUIModule/frmProfileChangeAndUpdatePassword",
+                "friendlyName": "frmProfileChangeAndUpdatePassword"
+            },
+            "frmProfileEditPhoneNumberMain": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileEditPhoneNumberMainController",
+                "FormName": "SettingsUIModule/frmProfileEditPhoneNumberMain",
+                "friendlyName": "frmProfileEditPhoneNumberMain"
+            },
+            "frmProfileConfirmDetails": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileConfirmDetailsController",
+                "FormName": "SettingsUIModule/frmProfileConfirmDetails",
+                "friendlyName": "frmProfileConfirmDetails"
+            },
+            "frmProfileEnterEmailID": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileEnterEmailIDController",
+                "FormName": "SettingsUIModule/frmProfileEnterEmailID",
+                "friendlyName": "frmProfileEnterEmailID"
+            },
+            "frmProfileEditAddress": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileEditAddressController",
+                "FormName": "SettingsUIModule/frmProfileEditAddress",
+                "friendlyName": "frmProfileEditAddress"
+            },
+            "frmProfileAdressType": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileAdressTypeController",
+                "FormName": "SettingsUIModule/frmProfileAdressType",
+                "friendlyName": "frmProfileAdressType"
+            },
+            "frmProfileAddAddress": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileAddAddressController",
+                "FormName": "SettingsUIModule/frmProfileAddAddress",
+                "friendlyName": "frmProfileAddAddress"
+            },
+            "frmProfileContactType": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileContactTypeController",
+                "FormName": "SettingsUIModule/frmProfileContactType",
+                "friendlyName": "frmProfileContactType"
+            },
+            "frmProfileConfirmAddressDetails": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileConfirmAddressDetailsController",
+                "FormName": "SettingsUIModule/frmProfileConfirmAddressDetails",
+                "friendlyName": "frmProfileConfirmAddressDetails"
+            },
+            "frmProfileSelectLocation": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileSelectLocationController",
+                "FormName": "SettingsUIModule/frmProfileSelectLocation",
+                "friendlyName": "frmProfileSelectLocation"
+            },
+            "frmProfileCountryCode": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileCountryCodeController",
+                "FormName": "SettingsUIModule/frmProfileCountryCode",
+                "friendlyName": "frmProfileCountryCode"
+            },
+            "frmProfileCountry": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmProfileCountryController",
+                "FormName": "SettingsUIModule/frmProfileCountry",
+                "friendlyName": "frmProfileCountry"
+            },
+            "frmPreferencesAccountPreview": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesAccountPreviewController",
+                "FormName": "SettingsUIModule/frmPreferencesAccountPreview",
+                "friendlyName": "frmPreferencesAccountPreview"
+            },
+            "frmPreferencesDefaultLogin": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesDefaultLoginController",
+                "FormName": "SettingsUIModule/frmPreferencesDefaultLogin",
+                "friendlyName": "frmPreferencesDefaultLogin"
+            },
+            "frmPreferencesTouchId": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesTouchIdController",
+                "FormName": "SettingsUIModule/frmPreferencesTouchId",
+                "friendlyName": "frmPreferencesTouchId"
+            },
+            "frmPreferencesPin": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesPinController",
+                "FormName": "SettingsUIModule/frmPreferencesPin",
+                "friendlyName": "frmPreferencesPin"
+            },
+            "frmPreferencesFaceId": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesFaceIdController",
+                "FormName": "SettingsUIModule/frmPreferencesFaceId",
+                "friendlyName": "frmPreferencesFaceId"
+            },
+            "frmPreferencesResetStep1": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesResetStep1Controller",
+                "FormName": "SettingsUIModule/frmPreferencesResetStep1",
+                "friendlyName": "frmPreferencesResetStep1"
+            },
+            "frmPreferencesResetStep3": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesResetStep3Controller",
+                "FormName": "SettingsUIModule/frmPreferencesResetStep3",
+                "friendlyName": "frmPreferencesResetStep3"
+            },
+            "frmPreferencesResetStep2": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesResetStep2Controller",
+                "FormName": "SettingsUIModule/frmPreferencesResetStep2",
+                "friendlyName": "frmPreferencesResetStep2"
+            },
+            "frmDevSetFaceId": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmDevSetFaceIdController",
+                "FormName": "SettingsUIModule/frmDevSetFaceId",
+                "friendlyName": "frmDevSetFaceId"
+            },
+            "frmPreferencesFaceIdSetAsDefault": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesFaceIdSetAsDefaultController",
+                "FormName": "SettingsUIModule/frmPreferencesFaceIdSetAsDefault",
+                "friendlyName": "frmPreferencesFaceIdSetAsDefault"
+            },
+            "frmEStmtAccountPreferences": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmEStmtAccountPreferencesController",
+                "FormName": "SettingsUIModule/frmEStmtAccountPreferences",
+                "friendlyName": "frmEStmtAccountPreferences"
+            },
+            "frmSetDefaultAccount": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmSetDefaultAccountController",
+                "FormName": "SettingsUIModule/frmSetDefaultAccount",
+                "friendlyName": "frmSetDefaultAccount"
+            },
+            "frmPreferencesDefaultAccount": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmPreferencesDefaultAccountController",
+                "FormName": "SettingsUIModule/frmPreferencesDefaultAccount",
+                "friendlyName": "frmPreferencesDefaultAccount"
+            },
+            "frmEStmtAccountDetails": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmEStmtAccountDetailsController",
+                "FormName": "SettingsUIModule/frmEStmtAccountDetails",
+                "friendlyName": "frmEStmtAccountDetails"
+            },
+            "frmEStmtEditNickName": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmEStmtEditNickNameController",
+                "FormName": "SettingsUIModule/frmEStmtEditNickName",
+                "friendlyName": "frmEStmtEditNickName"
+            },
+            "frmEStmtChangeEmail": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmEStmtChangeEmailController",
+                "FormName": "SettingsUIModule/frmEStmtChangeEmail",
+                "friendlyName": "frmEStmtChangeEmail"
+            },
+            "frmEStmtTermsAndConditions": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmEStmtTermsAndConditionsController",
+                "FormName": "SettingsUIModule/frmEStmtTermsAndConditions",
+                "friendlyName": "frmEStmtTermsAndConditions"
+            },
+            "frmEStmtEnableEStatements": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmEStmtEnableEStatementsController",
+                "FormName": "SettingsUIModule/frmEStmtEnableEStatements",
+                "friendlyName": "frmEStmtEnableEStatements"
+            },
+            "frmEStmtDisableEStatements": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmEStmtDisableEStatementsController",
+                "FormName": "SettingsUIModule/frmEStmtDisableEStatements",
+                "friendlyName": "frmEStmtDisableEStatements"
+            },
+            "frmAlertsAccountDetail": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsAccountDetailController",
+                "FormName": "SettingsUIModule/frmAlertsAccountDetail",
+                "friendlyName": "frmAlertsAccountDetail"
+            },
+            "frmAlertsAccountList": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsAccountListController",
+                "FormName": "SettingsUIModule/frmAlertsAccountList",
+                "friendlyName": "frmAlertsAccountList"
+            },
+            "frmAlertsBalanceUpdate": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsBalanceUpdateController",
+                "FormName": "SettingsUIModule/frmAlertsBalanceUpdate",
+                "friendlyName": "frmAlertsBalanceUpdate"
+            },
+            "frmAlertsDealsAndSecurity": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsDealsAndSecurityController",
+                "FormName": "SettingsUIModule/frmAlertsDealsAndSecurity",
+                "friendlyName": "frmAlertsDealsAndSecurity"
+            },
+            "frmAlertsMinimumBalance": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmAlertsMinimumBalanceController",
+                "FormName": "SettingsUIModule/frmAlertsMinimumBalance",
+                "friendlyName": "frmAlertsMinimumBalance"
+            },
+            "frmSelectTPP": {
+                "ControllerExtensions": [
+                ],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "SettingsUIModule/frmSelectTPPController",
+                "FormName": "SettingsUIModule/frmSelectTPP",
+                "friendlyName": "frmSelectTPP"
+            }
+        }
+    },
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "SettingsUIModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+            ]
+        },
+        "Mobile": {
+            "PresentationControllerClass": "SettingsUIModule/PresentationControllers/PresentationController_Mobile",
+            "PresentationExtensions": [
+            ]
+        },
+        "Tablet": {
+            "PresentationControllerClass": "SettingsUIModule/PresentationControllers/PresentationController_Tablet",
+            "PresentationExtensions": [
+            ]
+        }
+    },
+    "ModuleType": "UIModule",
+    "ModuleName": "SettingsUIModule"
+}

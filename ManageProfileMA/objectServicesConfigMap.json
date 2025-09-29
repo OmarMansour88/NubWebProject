@@ -1,0 +1,86 @@
+{
+    "ExternalUserManagement_Contract": {
+        "servicename": "ExternalUserManagement",
+        "serviceid": "45ba1b61-7716-48f1-a201-37b6bd6e6bae",
+        "type": "objectsvcs",
+        "objectname": "Contract",
+        "objectid": "34197"
+    },
+    "ExternalUserManagement_CustomRole": {
+        "servicename": "ExternalUserManagement",
+        "serviceid": "45ba1b61-7716-48f1-a201-37b6bd6e6bae",
+        "type": "objectsvcs",
+        "objectname": "CustomRole",
+        "objectid": "34198"
+    },
+    "ExternalUserManagement_CustomerLimits": {
+        "servicename": "ExternalUserManagement",
+        "serviceid": "45ba1b61-7716-48f1-a201-37b6bd6e6bae",
+        "type": "objectsvcs",
+        "objectname": "CustomerLimits",
+        "objectid": "34199"
+    },
+    "ExternalUserManagement_DigitalProfile": {
+        "servicename": "ExternalUserManagement",
+        "serviceid": "45ba1b61-7716-48f1-a201-37b6bd6e6bae",
+        "type": "objectsvcs",
+        "objectname": "DigitalProfile",
+        "objectid": "34200"
+    },
+    "ExternalUserManagement_ExternalUsers": {
+        "servicename": "ExternalUserManagement",
+        "serviceid": "45ba1b61-7716-48f1-a201-37b6bd6e6bae",
+        "type": "objectsvcs",
+        "objectname": "ExternalUsers",
+        "objectid": "34201"
+    },
+    "ExternalUserManagement_ExternalUsers_1": {
+        "servicename": "ExternalUserManagement",
+        "serviceid": "45ba1b61-7716-48f1-a201-37b6bd6e6bae",
+        "type": "objectsvcs",
+        "objectname": "ExternalUsers_1",
+        "objectid": "34202"
+    },
+    "ExternalUserManagement_ExternalUsers_2": {
+        "servicename": "ExternalUserManagement",
+        "serviceid": "45ba1b61-7716-48f1-a201-37b6bd6e6bae",
+        "type": "objectsvcs",
+        "objectname": "ExternalUsers_2",
+        "objectid": "34203"
+    },
+    "ExternalUserManagement_Roles": {
+        "servicename": "ExternalUserManagement",
+        "serviceid": "45ba1b61-7716-48f1-a201-37b6bd6e6bae",
+        "type": "objectsvcs",
+        "objectname": "Roles",
+        "objectid": "34204"
+    },
+    "ExternalUserManagement_Security": {
+        "servicename": "ExternalUserManagement",
+        "serviceid": "45ba1b61-7716-48f1-a201-37b6bd6e6bae",
+        "type": "objectsvcs",
+        "objectname": "Security",
+        "objectid": "34205"
+    },
+    "ExternalUserManagement_SecurityQuestions": {
+        "servicename": "ExternalUserManagement",
+        "serviceid": "45ba1b61-7716-48f1-a201-37b6bd6e6bae",
+        "type": "objectsvcs",
+        "objectname": "SecurityQuestions",
+        "objectid": "34206"
+    },
+    "ExternalUserManagement_serviceDefinition": {
+        "servicename": "ExternalUserManagement",
+        "serviceid": "45ba1b61-7716-48f1-a201-37b6bd6e6bae",
+        "type": "objectsvcs",
+        "objectname": "serviceDefinition",
+        "objectid": "34207"
+    },
+    "PartyExperienceAPI_Party": {
+        "servicename": "PartyExperienceAPI",
+        "serviceid": "0ad07290-8ef1-4c90-997b-dc2f0fb0f7d5",
+        "type": "objectsvcs",
+        "objectname": "Party",
+        "objectid": "34177"
+    }
+}

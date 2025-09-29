@@ -1,0 +1,81 @@
+{
+    "services": [
+        {
+            "serviceId": "45ba1b61-7716-48f1-a201-37b6bd6e6bae",
+            "serviceName": "ExternalUserManagement",
+            "serviceETag": "1fbbf263-cc67-4895-adb9-b32f77ad8669",
+            "objects": [
+                {
+                    "objectId": "34197",
+                    "objectName": "Contract",
+                    "objectETag": "657279e8-f642-4cc8-b031-6c34592e7891"
+                },
+                {
+                    "objectId": "34198",
+                    "objectName": "CustomRole",
+                    "objectETag": "574e3397-11df-49f9-a258-91d01c0cafd3"
+                },
+                {
+                    "objectId": "34199",
+                    "objectName": "CustomerLimits",
+                    "objectETag": "dbc2644c-0cce-42fa-9907-8a7b9390e532"
+                },
+                {
+                    "objectId": "34200",
+                    "objectName": "DigitalProfile",
+                    "objectETag": "caaae202-ef35-4d05-8406-558c531ae465"
+                },
+                {
+                    "objectId": "34201",
+                    "objectName": "ExternalUsers",
+                    "objectETag": "9e647b54-e0c0-454a-8847-0dcc06cb85cf"
+                },
+                {
+                    "objectId": "34202",
+                    "objectName": "ExternalUsers_1",
+                    "objectETag": "88dbd3bf-c0fb-49a9-bf50-372cd4f6336d"
+                },
+                {
+                    "objectId": "34203",
+                    "objectName": "ExternalUsers_2",
+                    "objectETag": "f6c8fb50-fe9e-4087-bbf4-429036a25c0e"
+                },
+                {
+                    "objectId": "34204",
+                    "objectName": "Roles",
+                    "objectETag": "248e658b-f301-4e88-9e7b-b6c1f07276aa"
+                },
+                {
+                    "objectId": "34205",
+                    "objectName": "Security",
+                    "objectETag": "c374d2aa-8d98-4697-ad23-5cfed9564f2c"
+                },
+                {
+                    "objectId": "34206",
+                    "objectName": "SecurityQuestions",
+                    "objectETag": "95eba456-bbeb-4eae-8e38-821e370e35ff"
+                },
+                {
+                    "objectId": "34207",
+                    "objectName": "serviceDefinition",
+                    "objectETag": "0ce7829b-cbcb-414f-9aba-dc57e69ffc7f"
+                }
+            ]
+        },
+        {
+            "serviceId": "0ad07290-8ef1-4c90-997b-dc2f0fb0f7d5",
+            "serviceName": "PartyExperienceAPI",
+            "serviceETag": "d04b41ff-9817-8364-b625-8f5dc71d1b1c",
+            "objects": [
+                {
+                    "objectId": "34177",
+                    "objectName": "Party",
+                    "objectETag": "c8f068e5-0898-40bc-8190-6fe767af4b90"
+                }
+            ]
+        }
+    ],
+    "appInfo": {
+        "serviceDocEtag": "0000017C7001CE38"
+    }
+}
