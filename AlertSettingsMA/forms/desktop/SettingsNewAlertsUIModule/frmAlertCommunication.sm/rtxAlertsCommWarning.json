@@ -1,0 +1,99 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "20px"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "s8a8ec75ad3645388a4ce250f3b9d2c8",
+    "_text_": "You have selected the following contact details for alert communication.\n",
+    "_top_": {
+        "type": "string",
+        "value": "20px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "93%"
+    },
+    "_wrapping_": 2,
+    "accessibilityconfig": {},
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rtxAlertsCommWarning",
+    "info": null,
+    "isvisible": true,
+    "kuid": "d73547aefbf7497f94751e74c80b4682",
+    "minheight": {
+        "type": "number",
+        "value": ""
+    },
+    "name": "kony.ui.RichText",
+    "parent": "flxAlertsCommWarningWrapper",
+    "pf": "frmAlertCommunication",
+    "responsiveData": {
+        "b2": {
+            "desktopweb": {
+                "right": {
+                    "type": "string",
+                    "value": "5%"
+                }
+            },
+            "right": {
+                "type": "string",
+                "value": "5%"
+            }
+        },
+        "b3": {
+            "bottom": {
+                "type": "string",
+                "value": "10px"
+            },
+            "contentAlignment": 4,
+            "left": {
+                "type": "string",
+                "value": "55dp"
+            },
+            "minHeight": {
+                "type": "string",
+                "value": "30dp"
+            },
+            "skin": "s19145f8ece84f148d16ab75541eb1ea",
+            "top": {
+                "type": "string",
+                "value": "10px"
+            },
+            "width": {
+                "type": "string",
+                "value": "80%"
+            }
+        }
+    },
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}
