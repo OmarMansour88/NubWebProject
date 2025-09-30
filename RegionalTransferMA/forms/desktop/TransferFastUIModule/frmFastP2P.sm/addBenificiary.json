@@ -1,0 +1,86 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s17ff43cabee441e9dd8fc8e3029821f",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "number",
+        "value": ""
+    },
+    "containerweight": 0,
+
+
+
+    "data": {
+        "objName": "Payee_Name",
+        "operationName": "getPayeeName",
+        "payeeEDITOperation": "updateP2PPayee",
+        "payeeObject": "Payee_P2P",
+        "payeeObjectService": "DigitalTransfer",
+        "reviewRow2Label": "{\"$.BNFTYPES.BT1\":{\"$.BREAKPTS.BP1\":\"Recipient Name :\",\"default\":\"Recipient Name :\"},\"$.BNFTYPES.BT2\":{\"$.BREAKPTS.BP1\":\"Account Number :\",\"default\":\"Account Number :\"},\"$.BNFTYPES.BT3\":{\"$.BREAKPTS.BP1\":\"Account Number :\",\"default\":\"Account Number :\"},\"$.BNFTYPES.BT4\":{\"$.BREAKPTS.BP1\":\"Nickname :\",\"default\":\"Nickname :\"}}",
+        "reviewRow3Label": "{\"$.BNFTYPES.BT1\":{\"$.BREAKPTS.BP1\":\"Account Nickname :\",\"default\":\"Account Nickname :\"},\"$.BNFTYPES.BT2\":{\"$.BREAKPTS.BP1\":\"Recipient Name :\",\"default\":\"Recipient Name :\"},\"$.BNFTYPES.BT3\":{\"$.BREAKPTS.BP1\":\"Recipient Name :\",\"default\":\"Recipient Name :\"},\"$.BNFTYPES.BT4\":\"{$.c.radioValue} :\"}",
+        "reviewRow4Label": "{\"$.BNFTYPES.BT1\":{\"$.BREAKPTS.BP1\":\"Bank Name :\",\"default\":\"Bank Name :\"},\"$.BNFTYPES.BT2\":{\"$.BREAKPTS.BP1\":\"Account Nickname :\",\"default\":\"Account Nickname :\"},\"$.BNFTYPES.BT3\":{\"$.BREAKPTS.BP1\":\"Account Nickname :\",\"default\":\"Account Nickname :\"}}",
+        "reviewRow5Label": "{\"$.BNFTYPES.BT2\":{\"$.BREAKPTS.BP1\":\"Bank Name :\",\"default\":\"Bank Name :\"},\"$.BNFTYPES.BT3\":{\"$.BREAKPTS.BP1\":\"Bank Name :\",\"default\":\"Bank Name :\"}}",
+        "serviceName": "PayeeManagement"
+    },
+    "enablescrolling": true,
+
+    "id": "addBenificiary",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "ed2bd317364a4b45b019736c8a73aa14",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmFastP2P",
+    "responsiveData": {
+        "b2": {},
+        "b3": {
+            "centerX": {
+                "type": "string",
+                "value": "50%"
+            }
+        },
+        "b4": {}
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "c1e275265b5e4e7eb7f68a32dbdb603e",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

@@ -1,0 +1,208 @@
+{ 
+  "Application": {},
+  "Forms" : {},
+  "UIModules" : {
+    "TransferEurUIModule": {
+      "destinationConfig": {
+        "callback": "handleTransferNavigation",
+        "targetForms": [
+          {
+            "friendlyName": "TransferEurUIModule/frmMakePayment",
+            "appName": "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferEurUIModule/frmConfirmEuro",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferEurUIModule/frmAcknowledgementEuro",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferEurUIModule/frmAddBeneficiaryEuro",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferEurUIModule/frmAddBeneficiaryConfirmEuro",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferEurUIModule/frmAddBeneficiaryAcknowledgementEuro",
+            "appName" : "RegionalTransferMA"
+          }]}},
+    "TransferFastUIModule": {
+      "destinationConfig": {
+        "callback": "handleTransferNavigation",
+        "targetForms": [
+          {
+            "friendlyName": "TransferFastUIModule/frmConfirmTransfer",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastActiveAck",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastActiveRecipient",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastActiveServices",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastAddDBXAccount",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastAddDBXAccountAcknowledgement",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastAddDBXAccountConfirm",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastAddDBXLinkRecipient",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastAddExternalAccount",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastAddExternalAccountAcknowledgement",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastAddExternalAccountConfirm",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastAddInternationalAccount",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastAddInternationalAccountAcknowledgement",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastAddInternationalAccountConfirm",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastAddRecipient",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastAddRecipientAcknowledgement",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastAddRecipientConfirm",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastDeActiveRecipient",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastDeActiveRecipienttAcknowledgement",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastManagePayee",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastP2P",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastRecipientGateWay",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastTransfers",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastVerifyAccount",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmFastViewActivity",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmP2PSettings",
+            "appName" : "RegionalTransferMA"
+          },
+          {
+            "friendlyName": "TransferFastUIModule/frmReview",
+            "appName" : "RegionalTransferMA"
+          },
+		{
+            "friendlyName": "TransferFastUIModule/frmScheduledPaymentsNew",
+            "appName" : "RegionalTransferMA"
+          },
+                    {
+            "friendlyName": "TransferFastUIModule/frmPastPaymentsNew",
+            "appName" : "RegionalTransferMA"
+          },
+                    {
+            "friendlyName": "TransferFastUIModule/frmDirectDebits",
+            "appName" : "RegionalTransferMA"
+          }
+        ]
+      }
+    },
+	"ManageActivitiesUIModule": {
+      "destinationConfig": {
+        "callback": "handleTransferNavigation",
+        "targetForms": [
+          {
+          "friendlyName": "ManageActivitiesUIModule/frmDirectDebitsEur",
+          "appName": "UnifiedTransferMA"
+          },
+          {
+          "friendlyName": "ManageActivitiesUIModule/frmManageBeneficiaries",
+          "appName" : "UnifiedTransferMA"
+          },
+          {
+          "friendlyName": "ManageActivitiesUIModule/frmPastPaymentsEurNew",
+          "appName" : "UnifiedTransferMA"
+          },
+		  {
+          "friendlyName": "ManageActivitiesUIModule/frmScheduledPaymentsEurNew",
+          "appName" : "UnifiedTransferMA"
+          }
+        ]
+      }
+    },
+    "PayMultipleBeneficiariesUIModule":{
+            "destinationConfig": {
+        "callback": "handleTransferNavigation",
+        "targetForms": [
+          {
+          "friendlyName": "PayMultipleBeneficiariesUIModule/frmBulkBeneficiariesLanding",
+          "appName": "RegionalTransferMA"
+          },
+          {
+          "friendlyName": "PayMultipleBeneficiariesUIModule/frmBulkBeneficiariesSelected",
+          "appName" : "RegionalTransferMA"
+          },
+          {
+          "friendlyName": "PayMultipleBeneficiariesUIModule/frmBulkBeneficiariesSelectedAcknowledgement",
+          "appName" : "RegionalTransferMA"
+          },
+		  {
+          "friendlyName": "PayMultipleBeneficiariesUIModule/frmBulkBeneficiariesSelectedConfirm",
+          "appName" : "RegionalTransferMA"
+          }
+        ]
+      }
+      
+    }
+  }
+}

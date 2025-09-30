@@ -1,0 +1,307 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "268px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s701065f11074080832b59947e731160",
+    "_top_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "43.27%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "CustomPopup": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "j7fa1d9ab2b248378403bc46f410af31",
+                "srcKUID": "eb2d311dcb4744a7b05aa4f5428a6c53",
+                "wType": "FlexContainer"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "left": {},
+            "responsiveData": {
+                "b2": {
+                    "width": {
+                        "type": "string",
+                        "value": "75%"
+                    }
+                },
+                "b3": {
+                    "left": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "right": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "75%"
+                    }
+                }
+            },
+            "right": {},
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "150dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "43.27%"
+                }
+            }
+        },
+        "btnNo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cbad91a062734bfc87d1c8f5a5d5f425",
+                "srcKUID": "h61577b4448c4e22a2636221e8fe0d6d",
+                "wType": "Button"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "responsiveData": {
+                "b3": {
+                    "left": null,
+                    "right": {
+                        "type": "string",
+                        "value": "160dp"
+                    },
+                    "top": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "120dp"
+                    }
+                },
+                "b4": {
+                    "right": null,
+                    "width": null
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "190dp"
+                }
+            },
+            "top": {},
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "150dp"
+                }
+            }
+        },
+        "btnYes": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i070eee08e5340e79839ce49621f6b4b",
+                "srcKUID": "e1c11d09edb846848d4aaf921cb1e5a0",
+                "wType": "Button"
+            },
+            "responsiveData": {
+                "b3": {
+                    "right": null,
+                    "top": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "120dp"
+                    }
+                },
+                "b4": {
+                    "right": null,
+                    "width": null
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "20dp"
+                }
+            },
+            "top": {},
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "150dp"
+                }
+            }
+        },
+        "flxCross": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bc206e59abd440b99b59aa0f00d5ea07",
+                "srcKUID": "e896a8d6e1244397be41e1011101c6ec",
+                "wType": "FlexContainer"
+            },
+            "responsiveData": {
+                "b3": {
+                    "right": null
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "11dp"
+                }
+            }
+        },
+        "flxHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "acb22e7bb5214405bd707f172bbb7faf",
+                "srcKUID": "b6d465d7232a428eba11c466c6843856",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSeperator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bf65753c5d4e45a084a6574d71eb1af3",
+                "srcKUID": "b469cc45156e429d8fa47b9786168d10",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSeperator2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f30b9fd1461c49a79076a6583ddf44bd",
+                "srcKUID": "e909e4e4b4a145b1aa92b22ece7050d3",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgCross": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ef58f4b678b149bb91a40b7deb7f6b40",
+                "srcKUID": "ja13bba308404016b1cd223dbcdf01ae",
+                "wType": "Image"
+            },
+            "src": "bbcloseicon.png"
+        },
+        "lblHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bdc84cecce5b43d38bdfd8556caf1a3a",
+                "srcKUID": "f97c1408984847af9f3cd9984a260c74",
+                "wType": "Label"
+            },
+            "left": {},
+            "responsiveData": {
+                "b3": {
+                    "left": {
+                        "type": "string",
+                        "value": "15dp"
+                    }
+                }
+            },
+            "text": "DISMISS"
+        },
+        "lblPopupMessage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f4a1fdf6512d46939da2fd00e69f3dba",
+                "srcKUID": "f7c7509dccf24b88aeb13dc3d34fcc6b",
+                "wType": "Label"
+            },
+            "left": {},
+            "responsiveData": {
+                "b3": {
+                    "left": {
+                        "type": "string",
+                        "value": "15dp"
+                    },
+                    "right": {
+                        "type": "string",
+                        "value": "15dp"
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": ""
+                    }
+                }
+            },
+            "right": {},
+            "text": "Are you sure you want to dismiss this Notification?",
+            "width": {}
+        },
+        "lblcross": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cfc3ba302c3a4d72bc12f3e01fb32629",
+                "srcKUID": "fd30aa3a9d8f4077b98f3053f04a091b",
+                "wType": "Label"
+            }
+        }
+    },
+    "id": "CustomPopup1",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "b9fd8c2fe5024164b0d77574da0f1352",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "FlxDismiss",
+    "pf": "frmNotificationsAndMessages",
+    "snaptogrid": true,
+    "sourceUserWidget": "eb2d311dcb4744a7b05aa4f5428a6c53",
+    "vizprops": {
+        "hidewidgethierarchy": false
+    },
+    "wType": "UserWidgetInstance"
+}
